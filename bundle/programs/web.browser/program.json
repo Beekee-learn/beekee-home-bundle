@@ -2,24 +2,24 @@
   "format": "web-program-pre1",
   "manifest": [
     {
-      "path": "5ffed2e79504eed5eb1e5abd406730669bc62b3a.js",
+      "path": "e3a652ec06090344a31bddb32aa488baa3641800.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/5ffed2e79504eed5eb1e5abd406730669bc62b3a.js?meteor_js_resource=true",
-      "size": 768189,
-      "hash": "5ffed2e79504eed5eb1e5abd406730669bc62b3a",
-      "sri": "iZtbHwJu3ABdVf1cP4p84BWWeNG2QdwvyCoKDUlBMQK5+ResCsYsrnAOE+90df67GfUQ4kQTCvMzIS8pB35IiA=="
+      "url": "/e3a652ec06090344a31bddb32aa488baa3641800.js?meteor_js_resource=true",
+      "size": 772702,
+      "hash": "e3a652ec06090344a31bddb32aa488baa3641800",
+      "sri": "4TCbG/TjsYKdwQaEM8U5q300l4/goW0odnORxHkqVsC0wKPTJFWKeKkHTGKECDm4A45yuCP9wd79JtyUwBPzpA=="
     },
     {
-      "path": "5ffed2e79504eed5eb1e5abd406730669bc62b3a.stats.json",
+      "path": "e3a652ec06090344a31bddb32aa488baa3641800.stats.json",
       "where": "client",
       "type": "json",
       "cacheable": true,
-      "url": "/5ffed2e79504eed5eb1e5abd406730669bc62b3a.stats.json?meteor_js_resource=true",
-      "size": 17534,
-      "hash": "faa57d799a3c98487e2ca5ec3128eb80df37364a",
-      "sri": "upb89DcGhlTGDodi29A+Go9W3+2NXDLVbJ8aG3ha17dCQviel/PeixAb9EjHrzcADRfyieoV1r3KNZ5HjA7lIA=="
+      "url": "/e3a652ec06090344a31bddb32aa488baa3641800.stats.json?meteor_js_resource=true",
+      "size": 18142,
+      "hash": "784e64f5c90a572cb8551c3f5a1fb5a42a7f25da",
+      "sri": "2+4pA03hzl1uq3G8DZhEpAyylZBIHZrxDRk2OP7YryKX9Z3Q4EajDfeol8Yrhp9jTm5uMb7Bi5c+qxSr8jEUag=="
     },
     {
       "path": "865aead4bcad1ea55968bf9fd8cd7f190738a3c6.css",
@@ -227,8 +227,8 @@
       "type": "asset",
       "cacheable": false,
       "url": "/img/logo_black.svg",
-      "size": 1964,
-      "hash": "0283c233d4fb995fbcddf6a8ea778508cd11495c",
+      "size": 1987,
+      "hash": "c716e276afdbc998e0da6a5f8e92bdb78f640004",
       "sri": null
     },
     {
@@ -237,8 +237,8 @@
       "type": "asset",
       "cacheable": false,
       "url": "/img/logo_white.svg",
-      "size": 1964,
-      "hash": "4b797641811d2fcf3de588aad1cfc12bc7b6498c",
+      "size": 1987,
+      "hash": "2042e0152e2f3cb66eeabd05a16dfcbdf3dd03b6",
       "sri": null
     },
     {
