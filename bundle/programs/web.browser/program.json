@@ -2,31 +2,54 @@
   "format": "web-program-pre1",
   "manifest": [
     {
-      "path": "4c33fcd4e9ea63e68aa61fdae41323fe94bb6c18.js",
+      "path": "5ffed2e79504eed5eb1e5abd406730669bc62b3a.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/4c33fcd4e9ea63e68aa61fdae41323fe94bb6c18.js?meteor_js_resource=true",
-      "size": 851395,
-      "hash": "4c33fcd4e9ea63e68aa61fdae41323fe94bb6c18"
+      "url": "/5ffed2e79504eed5eb1e5abd406730669bc62b3a.js?meteor_js_resource=true",
+      "size": 768189,
+      "hash": "5ffed2e79504eed5eb1e5abd406730669bc62b3a",
+      "sri": "iZtbHwJu3ABdVf1cP4p84BWWeNG2QdwvyCoKDUlBMQK5+ResCsYsrnAOE+90df67GfUQ4kQTCvMzIS8pB35IiA=="
     },
     {
-      "path": "5bf177e19388cf42715560f35de607aaa020d9aa.css",
+      "path": "5ffed2e79504eed5eb1e5abd406730669bc62b3a.stats.json",
+      "where": "client",
+      "type": "json",
+      "cacheable": true,
+      "url": "/5ffed2e79504eed5eb1e5abd406730669bc62b3a.stats.json?meteor_js_resource=true",
+      "size": 17534,
+      "hash": "faa57d799a3c98487e2ca5ec3128eb80df37364a",
+      "sri": "upb89DcGhlTGDodi29A+Go9W3+2NXDLVbJ8aG3ha17dCQviel/PeixAb9EjHrzcADRfyieoV1r3KNZ5HjA7lIA=="
+    },
+    {
+      "path": "865aead4bcad1ea55968bf9fd8cd7f190738a3c6.css",
       "where": "client",
       "type": "css",
       "cacheable": true,
-      "url": "/5bf177e19388cf42715560f35de607aaa020d9aa.css?meteor_css_resource=true",
-      "size": 143231,
-      "hash": "5bf177e19388cf42715560f35de607aaa020d9aa"
+      "url": "/865aead4bcad1ea55968bf9fd8cd7f190738a3c6.css?meteor_css_resource=true",
+      "size": 146286,
+      "hash": "865aead4bcad1ea55968bf9fd8cd7f190738a3c6",
+      "sri": "9AsarNNMcETZslDu9RoI5f5oCQJ/N+s1mzK/X71X5FsdvFdKQpoqUI809sUFZU96jokLBkuNwL5sUKhSXTAUXg=="
     },
     {
-      "path": "app/._.DS_Store",
+      "path": "app/doc/beekeebox_teacherdoc.pdf",
       "where": "client",
       "type": "asset",
       "cacheable": false,
-      "url": "/._.DS_Store",
-      "size": 120,
-      "hash": "0bed7e90c2bade9763fa18f1fb4441d31f91c87c"
+      "url": "/doc/beekeebox_teacherdoc.pdf",
+      "size": 59621,
+      "hash": "cdcf98d6a08aa28deeeae90e34683cb7f30952ec",
+      "sri": null
+    },
+    {
+      "path": "app/doc/moodle_teacherdoc.pdf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/doc/moodle_teacherdoc.pdf",
+      "size": 965607,
+      "hash": "e9de345c2d7b1edf69f177e6fa10b18a9c90a611",
+      "sri": null
     },
     {
       "path": "app/fonts/Montserrat-Light.otf",
@@ -35,7 +58,8 @@
       "cacheable": false,
       "url": "/fonts/Montserrat-Light.otf",
       "size": 44792,
-      "hash": "fd907f0af43919ff000ae1c216815af86cdce5e3"
+      "hash": "c2a416e9906b4612e5d5fa3554db52218a47641e",
+      "sri": null
     },
     {
       "path": "app/fonts/Montserrat-Regular.otf",
@@ -44,7 +68,8 @@
       "cacheable": false,
       "url": "/fonts/Montserrat-Regular.otf",
       "size": 45360,
-      "hash": "713c997ce002a4d8762c2dcc405213061233e4bc"
+      "hash": "c7dfd76c5bfd20b1c73c07e07db4a0bbd4ec2902",
+      "sri": null
     },
     {
       "path": "app/fonts/Montserrat-UltraLight.otf",
@@ -53,7 +78,18 @@
       "cacheable": false,
       "url": "/fonts/Montserrat-UltraLight.otf",
       "size": 68300,
-      "hash": "393d85e7529bcc4ef78bb3b61683b324add040d3"
+      "hash": "4daeb5181c3b4b6b7338e2577ff52735ac141f23",
+      "sri": null
+    },
+    {
+      "path": "app/fonts/Raleway-Light.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/Raleway-Light.ttf",
+      "size": 182376,
+      "hash": "470fea69cc317ffc765af183dbc62c5edd8f38a4",
+      "sri": null
     },
     {
       "path": "app/fonts/Raleway-Medium.eot",
@@ -62,7 +98,8 @@
       "cacheable": false,
       "url": "/fonts/Raleway-Medium.eot",
       "size": 179788,
-      "hash": "efa288f3a372bee0f47e14ce1ca7ae8b4434ca10"
+      "hash": "44edd6cfd01bc6d13568e6451f16af172c85c362",
+      "sri": null
     },
     {
       "path": "app/fonts/Raleway-Medium.svg",
@@ -71,7 +108,8 @@
       "cacheable": false,
       "url": "/fonts/Raleway-Medium.svg",
       "size": 505724,
-      "hash": "27eae9969bc05b77414e0734f7eecf45d9ef170d"
+      "hash": "d79e3fe0227aad3f586bea268570aaf95917b0dd",
+      "sri": null
     },
     {
       "path": "app/fonts/Raleway-Medium.ttf",
@@ -80,7 +118,8 @@
       "cacheable": false,
       "url": "/fonts/Raleway-Medium.ttf",
       "size": 180184,
-      "hash": "1cde18b914522a89c238b8383990a14f231d96cd"
+      "hash": "65f2ffc4ac79a3bfbdb33678ddc4912fac894f97",
+      "sri": null
     },
     {
       "path": "app/fonts/Raleway-Medium.woff",
@@ -89,7 +128,8 @@
       "cacheable": false,
       "url": "/fonts/Raleway-Medium.woff",
       "size": 71312,
-      "hash": "80377bc43ed9814f6fc35f1b3d09147b9c8c9753"
+      "hash": "c241f5c34eada5793923abe52dd957a599be78ed",
+      "sri": null
     },
     {
       "path": "app/fonts/Raleway-Medium.woff2",
@@ -98,7 +138,8 @@
       "cacheable": false,
       "url": "/fonts/Raleway-Medium.woff2",
       "size": 51764,
-      "hash": "b5f6bb942592ace04765a68bf032770ba8efc74f"
+      "hash": "947c185fe2163ca9370d0502bebfd2a3acc190f8",
+      "sri": null
     },
     {
       "path": "app/fonts/Raleway-Regular.eot",
@@ -107,7 +148,8 @@
       "cacheable": false,
       "url": "/fonts/Raleway-Regular.eot",
       "size": 178836,
-      "hash": "9ee4fe0e3591fb0c7f1212e955e9799b62bfa967"
+      "hash": "a8175e91baba6e371cf9ce9e11cd6dc70f957586",
+      "sri": null
     },
     {
       "path": "app/fonts/Raleway-Regular.svg",
@@ -116,7 +158,8 @@
       "cacheable": false,
       "url": "/fonts/Raleway-Regular.svg",
       "size": 490395,
-      "hash": "fbd2d299a46476c3e83d757d9e4ce9d37c3ddc14"
+      "hash": "c53b748a30362a314cd14daed6ec9566d5e354a8",
+      "sri": null
     },
     {
       "path": "app/fonts/Raleway-Regular.ttf",
@@ -125,7 +168,8 @@
       "cacheable": false,
       "url": "/fonts/Raleway-Regular.ttf",
       "size": 180084,
-      "hash": "b8bfc17d0824ad679c7d8d7acf92883fd0c9fb6e"
+      "hash": "745ece1230d9e11c50c006506ee2c23ff19573eb",
+      "sri": null
     },
     {
       "path": "app/fonts/Raleway-Regular.woff",
@@ -134,7 +178,8 @@
       "cacheable": false,
       "url": "/fonts/Raleway-Regular.woff",
       "size": 71640,
-      "hash": "f1111df93f7aba7f8f788b9c40bd9aeeb7d8456b"
+      "hash": "11a4e01c895aa15a855f66aef12c64d0f8fc3d8c",
+      "sri": null
     },
     {
       "path": "app/fonts/Raleway-Regular.woff2",
@@ -143,25 +188,8 @@
       "cacheable": false,
       "url": "/fonts/Raleway-Regular.woff2",
       "size": 51572,
-      "hash": "f8f56995fd092ded5242548dab7a62255662f1b8"
-    },
-    {
-      "path": "app/img/._.DS_Store",
-      "where": "client",
-      "type": "asset",
-      "cacheable": false,
-      "url": "/img/._.DS_Store",
-      "size": 120,
-      "hash": "0bed7e90c2bade9763fa18f1fb4441d31f91c87c"
-    },
-    {
-      "path": "app/img/._background.png",
-      "where": "client",
-      "type": "asset",
-      "cacheable": false,
-      "url": "/img/._background.png",
-      "size": 887,
-      "hash": "db90cfe9ae89bdba7d21f7bb535587fe14805202"
+      "hash": "acd4327f925fcd32fa170c437e6f1bedab6b29c1",
+      "sri": null
     },
     {
       "path": "app/img/background.png",
@@ -170,7 +198,18 @@
       "cacheable": false,
       "url": "/img/background.png",
       "size": 1193593,
-      "hash": "75120f9eb28aa086e8f070ac972d9dbc722c1745"
+      "hash": "404dcfdd579ebe5f21e169cebb5cecaf2bd48508",
+      "sri": null
+    },
+    {
+      "path": "app/img/favicon.ico",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/favicon.ico",
+      "size": 15406,
+      "hash": "c3f92a0ab52e2fefc61f0e9cfe84c917ffeb9c37",
+      "sri": null
     },
     {
       "path": "app/img/logo.png",
@@ -178,62 +217,149 @@
       "type": "asset",
       "cacheable": false,
       "url": "/img/logo.png",
-      "size": 6145,
-      "hash": "78177c7c39526519676af139be788b45a0c06117"
+      "size": 46245,
+      "hash": "2cb2deaafbc9266edf63dc6b372b18c07c153a56",
+      "sri": null
     },
     {
-      "path": "app/img/icons/._live.png",
+      "path": "app/img/logo_black.svg",
       "where": "client",
       "type": "asset",
       "cacheable": false,
-      "url": "/img/icons/._live.png",
-      "size": 210,
-      "hash": "e250d0d76d5788ec247b6dbd580e417f1e5068b0"
+      "url": "/img/logo_black.svg",
+      "size": 1964,
+      "hash": "0283c233d4fb995fbcddf6a8ea778508cd11495c",
+      "sri": null
     },
     {
-      "path": "app/img/icons/._moodle.png",
+      "path": "app/img/logo_white.svg",
       "where": "client",
       "type": "asset",
       "cacheable": false,
-      "url": "/img/icons/._moodle.png",
-      "size": 210,
-      "hash": "e250d0d76d5788ec247b6dbd580e417f1e5068b0"
+      "url": "/img/logo_white.svg",
+      "size": 1964,
+      "hash": "4b797641811d2fcf3de588aad1cfc12bc7b6498c",
+      "sri": null
     },
     {
-      "path": "app/img/icons/._settings.png",
+      "path": "app/img/icons/Moodle.psd",
       "where": "client",
       "type": "asset",
       "cacheable": false,
-      "url": "/img/icons/._settings.png",
-      "size": 210,
-      "hash": "e250d0d76d5788ec247b6dbd580e417f1e5068b0"
+      "url": "/img/icons/Moodle.psd",
+      "size": 100756,
+      "hash": "d88f188c8bd95c20f8a1ebbde7cc93f8a6f3dd2e",
+      "sri": null
     },
     {
-      "path": "app/img/icons/._store.png",
+      "path": "app/img/icons/beekee-live (1).psd",
       "where": "client",
       "type": "asset",
       "cacheable": false,
-      "url": "/img/icons/._store.png",
-      "size": 210,
-      "hash": "e250d0d76d5788ec247b6dbd580e417f1e5068b0"
+      "url": "/img/icons/beekee-live (1).psd",
+      "size": 75574,
+      "hash": "ab284f5b573696e8a303ca282e13817c7c32b464",
+      "sri": null
     },
     {
-      "path": "app/img/icons/._wheel.png",
+      "path": "app/img/icons/beekee-live copy.psd",
       "where": "client",
       "type": "asset",
       "cacheable": false,
-      "url": "/img/icons/._wheel.png",
-      "size": 210,
-      "hash": "e250d0d76d5788ec247b6dbd580e417f1e5068b0"
+      "url": "/img/icons/beekee-live copy.psd",
+      "size": 75574,
+      "hash": "ab284f5b573696e8a303ca282e13817c7c32b464",
+      "sri": null
     },
     {
-      "path": "app/img/icons/live.png",
+      "path": "app/img/icons/beekee-live.png",
       "where": "client",
       "type": "asset",
       "cacheable": false,
-      "url": "/img/icons/live.png",
-      "size": 33788,
-      "hash": "5d4a8a03815f9c4f7c95a8d1a1351deb74672f3f"
+      "url": "/img/icons/beekee-live.png",
+      "size": 21836,
+      "hash": "bf100824b4fe58e1f168f0cb08edff781678fd7a",
+      "sri": null
+    },
+    {
+      "path": "app/img/icons/beekee-live.psd",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/icons/beekee-live.psd",
+      "size": 75574,
+      "hash": "ab284f5b573696e8a303ca282e13817c7c32b464",
+      "sri": null
+    },
+    {
+      "path": "app/img/icons/beekee-resources.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/icons/beekee-resources.png",
+      "size": 19574,
+      "hash": "2b3b53f01b56a52b257e5afd5c7bca11022c3468",
+      "sri": null
+    },
+    {
+      "path": "app/img/icons/beekee-resources.psd",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/icons/beekee-resources.psd",
+      "size": 64625,
+      "hash": "d58f18d9742c41b2885859d9eb0055958e14f368",
+      "sri": null
+    },
+    {
+      "path": "app/img/icons/beekee-timer.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/icons/beekee-timer.png",
+      "size": 26095,
+      "hash": "5293179d732b349f52427efe937ea0183e684aca",
+      "sri": null
+    },
+    {
+      "path": "app/img/icons/beekee-timer.psd",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/icons/beekee-timer.psd",
+      "size": 88966,
+      "hash": "5f3800882a18b659e1c6ee453b00c7a90354d143",
+      "sri": null
+    },
+    {
+      "path": "app/img/icons/beekee-wheel.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/icons/beekee-wheel.png",
+      "size": 41484,
+      "hash": "b665dc1de0386b8912484cd99b83f99b9f3cffca",
+      "sri": null
+    },
+    {
+      "path": "app/img/icons/beekee-wheel.psd",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/icons/beekee-wheel.psd",
+      "size": 173319,
+      "hash": "c1f88964879fbf871a5bffeeae335098da359b61",
+      "sri": null
+    },
+    {
+      "path": "app/img/icons/icon.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/icons/icon.png",
+      "size": 15732,
+      "hash": "70b44ef7dc35284d5b425b0049369dbd97345854",
+      "sri": null
     },
     {
       "path": "app/img/icons/moodle.png",
@@ -241,8 +367,9 @@
       "type": "asset",
       "cacheable": false,
       "url": "/img/icons/moodle.png",
-      "size": 58775,
-      "hash": "1603341fee5130de65f9f6aece6beb38a4d66b56"
+      "size": 26600,
+      "hash": "7828f4352040b653d85455c0a80c3bd1515c4e4f",
+      "sri": null
     },
     {
       "path": "app/img/icons/settings.png",
@@ -251,7 +378,8 @@
       "cacheable": false,
       "url": "/img/icons/settings.png",
       "size": 68171,
-      "hash": "75f6371b59a077c745c0ce1ec9151bd898cda06e"
+      "hash": "868787351d2a222fb6906638d46d30ad4a16333a",
+      "sri": null
     },
     {
       "path": "app/img/icons/store.png",
@@ -260,16 +388,8 @@
       "cacheable": false,
       "url": "/img/icons/store.png",
       "size": 24250,
-      "hash": "413f459f41e93c171804f178d054502ca0adc33f"
-    },
-    {
-      "path": "app/img/icons/wheel.png",
-      "where": "client",
-      "type": "asset",
-      "cacheable": false,
-      "url": "/img/icons/wheel.png",
-      "size": 253162,
-      "hash": "c8cc5095aa2c9c885d7311907bc937c8aacf027a"
+      "hash": "e15b048bb299d120ac476e80be2e97278f25cb7e",
+      "sri": null
     },
     {
       "path": "app/fonts/font-awesome/css/fontawesome-all.min.css",
@@ -278,7 +398,8 @@
       "cacheable": false,
       "url": "/fonts/font-awesome/css/fontawesome-all.min.css",
       "size": 41065,
-      "hash": "ecb7caed8f169c4ae226d85b82cfec19fc50d4ac"
+      "hash": "5f367ca4fe8b1eab97d1e8a322f5d9cf9367ea16",
+      "sri": null
     },
     {
       "path": "app/fonts/font-awesome/webfonts/fa-brands-400.eot",
@@ -287,7 +408,8 @@
       "cacheable": false,
       "url": "/fonts/font-awesome/webfonts/fa-brands-400.eot",
       "size": 111620,
-      "hash": "d92c68223732a10ceffe54eecbe4ef70073e6dea"
+      "hash": "1d3308183de062be7d61fc1e52cf4c7a2b3c8338",
+      "sri": null
     },
     {
       "path": "app/fonts/font-awesome/webfonts/fa-brands-400.svg",
@@ -296,7 +418,8 @@
       "cacheable": false,
       "url": "/fonts/font-awesome/webfonts/fa-brands-400.svg",
       "size": 599834,
-      "hash": "b07d27980b351d78f322260386450dde60d298cc"
+      "hash": "02c2d30e386b855cfdac1f23047b0085b613ecb4",
+      "sri": null
     },
     {
       "path": "app/fonts/font-awesome/webfonts/fa-brands-400.ttf",
@@ -305,7 +428,8 @@
       "cacheable": false,
       "url": "/fonts/font-awesome/webfonts/fa-brands-400.ttf",
       "size": 111384,
-      "hash": "9b4bb228d5b132e69ff8b6b248262449879eff3e"
+      "hash": "ac224217845451e37c8579adaae01874c9841735",
+      "sri": null
     },
     {
       "path": "app/fonts/font-awesome/webfonts/fa-brands-400.woff",
@@ -314,7 +438,8 @@
       "cacheable": false,
       "url": "/fonts/font-awesome/webfonts/fa-brands-400.woff",
       "size": 71560,
-      "hash": "8b5cac7fbf1712c81d9cac19cda04e6a604eb9da"
+      "hash": "f3b75c8589039e843e73e5f53f06cf58d8a46856",
+      "sri": null
     },
     {
       "path": "app/fonts/font-awesome/webfonts/fa-brands-400.woff2",
@@ -323,7 +448,8 @@
       "cacheable": false,
       "url": "/fonts/font-awesome/webfonts/fa-brands-400.woff2",
       "size": 61336,
-      "hash": "0ec12ea1707f5bc812b627f41cccad2aff01e54b"
+      "hash": "e91640d1d2449053461a7fc655c2d60d6c8e6500",
+      "sri": null
     },
     {
       "path": "app/fonts/font-awesome/webfonts/fa-regular-400.eot",
@@ -332,7 +458,8 @@
       "cacheable": false,
       "url": "/fonts/font-awesome/webfonts/fa-regular-400.eot",
       "size": 31272,
-      "hash": "9d5f24f29a91d1b07915981722f82f9a02e7303a"
+      "hash": "a2f99ab319cd5e6cad5a06b9d7436e50ce54f4ea",
+      "sri": null
     },
     {
       "path": "app/fonts/font-awesome/webfonts/fa-regular-400.svg",
@@ -341,7 +468,8 @@
       "cacheable": false,
       "url": "/fonts/font-awesome/webfonts/fa-regular-400.svg",
       "size": 104706,
-      "hash": "2187d9b7353a2b9560bee82f5482285a61025f23"
+      "hash": "7ef1c40c8036003e245ca4aa7c7a5442321287d5",
+      "sri": null
     },
     {
       "path": "app/fonts/font-awesome/webfonts/fa-regular-400.ttf",
@@ -350,7 +478,8 @@
       "cacheable": false,
       "url": "/fonts/font-awesome/webfonts/fa-regular-400.ttf",
       "size": 31044,
-      "hash": "8a92a0adfbcba4b50984bb122b540ec564d9269e"
+      "hash": "1c9e6d09ba9431ac92d0fc4197f9421827167e8a",
+      "sri": null
     },
     {
       "path": "app/fonts/font-awesome/webfonts/fa-regular-400.woff",
@@ -359,7 +488,8 @@
       "cacheable": false,
       "url": "/fonts/font-awesome/webfonts/fa-regular-400.woff",
       "size": 14724,
-      "hash": "552810e2049383ffafc81abb2fde655041bfdf9d"
+      "hash": "3829c561bf579b9863f2d6ef80fd4bcc94c94fc4",
+      "sri": null
     },
     {
       "path": "app/fonts/font-awesome/webfonts/fa-regular-400.woff2",
@@ -368,7 +498,8 @@
       "cacheable": false,
       "url": "/fonts/font-awesome/webfonts/fa-regular-400.woff2",
       "size": 12188,
-      "hash": "0654fee7e908814ecc3baf36bfc556520f491c17"
+      "hash": "44ebfde23a4f1cb7d099966209a7a03a304c520c",
+      "sri": null
     },
     {
       "path": "app/fonts/font-awesome/webfonts/fa-solid-900.eot",
@@ -377,7 +508,8 @@
       "cacheable": false,
       "url": "/fonts/font-awesome/webfonts/fa-solid-900.eot",
       "size": 133140,
-      "hash": "69aa0b829fd8562d0fb72948ce49ef201ff0ee83"
+      "hash": "916bb2bf5254ba014d1d4e9e1f510a244d81d9f6",
+      "sri": null
     },
     {
       "path": "app/fonts/font-awesome/webfonts/fa-solid-900.svg",
@@ -386,7 +518,8 @@
       "cacheable": false,
       "url": "/fonts/font-awesome/webfonts/fa-solid-900.svg",
       "size": 488395,
-      "hash": "24a7c19c323e91705be51641e87da7d5dfea5d10"
+      "hash": "4dbc5e203cbc1409e1a8a85ad13cd8bee3ae0701",
+      "sri": null
     },
     {
       "path": "app/fonts/font-awesome/webfonts/fa-solid-900.ttf",
@@ -395,7 +528,8 @@
       "cacheable": false,
       "url": "/fonts/font-awesome/webfonts/fa-solid-900.ttf",
       "size": 132920,
-      "hash": "31dc9b748b8d2bf6c3edec919e763791e037bbff"
+      "hash": "580a6a8f4415898b2440f534ce0824bdd21c85a5",
+      "sri": null
     },
     {
       "path": "app/fonts/font-awesome/webfonts/fa-solid-900.woff",
@@ -404,7 +538,8 @@
       "cacheable": false,
       "url": "/fonts/font-awesome/webfonts/fa-solid-900.woff",
       "size": 63836,
-      "hash": "7b4a63abc8476f745f09775d7465f0a6c33daf85"
+      "hash": "b8a11432a8173833c0126f1448c9a74c79ec2f43",
+      "sri": null
     },
     {
       "path": "app/fonts/font-awesome/webfonts/fa-solid-900.woff2",
@@ -413,7 +548,8 @@
       "cacheable": false,
       "url": "/fonts/font-awesome/webfonts/fa-solid-900.woff2",
       "size": 50372,
-      "hash": "1ba4dd60af529d1a72d0e57467c3bc0bbb728a4d"
+      "hash": "5a2ee0ff4eaea912037e813fe8c0f59d0c26e9ce",
+      "sri": null
     },
     {
       "path": "app/fonts/ionicons/css/ionicons.min.css",
@@ -422,7 +558,8 @@
       "cacheable": false,
       "url": "/fonts/ionicons/css/ionicons.min.css",
       "size": 51284,
-      "hash": "f0459300e39155df7aa5e94b3bdb8c8594f49a60"
+      "hash": "b1509da06bc85cac7262151f72987e50e502a2f4",
+      "sri": null
     },
     {
       "path": "app/fonts/ionicons/fonts/ionicons.eot",
@@ -431,7 +568,8 @@
       "cacheable": false,
       "url": "/fonts/ionicons/fonts/ionicons.eot",
       "size": 120724,
-      "hash": "61532e89e212f8dd16ba31f3ebcf35c0a7334035"
+      "hash": "0babf1a85bbc13b19e821cc36ca71fd8859cd525",
+      "sri": null
     },
     {
       "path": "app/fonts/ionicons/fonts/ionicons.svg",
@@ -440,7 +578,8 @@
       "cacheable": false,
       "url": "/fonts/ionicons/fonts/ionicons.svg",
       "size": 333834,
-      "hash": "3f1ca28fcb042d2bcc6ee6a4e3dd817e5132eeea"
+      "hash": "25e7cad259d061d787c3a048ebf1cb8ae53b2be9",
+      "sri": null
     },
     {
       "path": "app/fonts/ionicons/fonts/ionicons.ttf",
@@ -449,7 +588,8 @@
       "cacheable": false,
       "url": "/fonts/ionicons/fonts/ionicons.ttf",
       "size": 188508,
-      "hash": "1b0a0de084905946a20300ca8c354865dec46764"
+      "hash": "3b035e3597d89093dcc850b3671d5a532b24dd9b",
+      "sri": null
     },
     {
       "path": "app/fonts/ionicons/fonts/ionicons.woff",
@@ -458,13 +598,14 @@
       "cacheable": false,
       "url": "/fonts/ionicons/fonts/ionicons.woff",
       "size": 67904,
-      "hash": "e46819e863a46751d622c1190c4e8a83ebc20612"
+      "hash": "ce26769063c47599eb1906ef3d7a988cf8155026",
+      "sri": null
     },
     {
       "path": "head.html",
       "where": "internal",
       "type": "head",
-      "hash": "bf8eb31d35f4f4b56023603ca6c1733a4d0ef3ff"
+      "hash": "1e739956f6e3833821ac9b1c14827df33b3f0547"
     }
   ]
 }

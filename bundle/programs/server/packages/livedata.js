@@ -1,23 +1,19 @@
 (function () {
 
 /* Imports */
-var Meteor = Package.meteor.Meteor;
 var DDP = Package['ddp-client'].DDP;
 var DDPServer = Package['ddp-server'].DDPServer;
 
 /* Package-scope variables */
-var DDP, DDPServer, LivedataTest;
+var LivedataTest;
 
 
 
 /* Exports */
-if (typeof Package === 'undefined') Package = {};
-Package.livedata = {
+Package._define("livedata", {
   DDP: DDP,
   DDPServer: DDPServer,
   LivedataTest: LivedataTest
-};
+});
 
 })();
-
-//# sourceMappingURL=livedata.js.map

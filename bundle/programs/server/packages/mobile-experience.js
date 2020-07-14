@@ -1,14 +1,8 @@
 (function () {
 
-/* Imports */
-var Meteor = Package.meteor.Meteor;
-
 
 
 /* Exports */
-if (typeof Package === 'undefined') Package = {};
-Package['mobile-experience'] = {};
+Package._define("mobile-experience");
 
 })();
-
-//# sourceMappingURL=mobile-experience.js.map

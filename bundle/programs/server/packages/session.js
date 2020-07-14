@@ -1,14 +1,8 @@
 (function () {
 
-/* Imports */
-var Meteor = Package.meteor.Meteor;
-
 
 
 /* Exports */
-if (typeof Package === 'undefined') Package = {};
-Package.session = {};
+Package._define("session");
 
 })();
-
-//# sourceMappingURL=session.js.map

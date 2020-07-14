@@ -1,6 +1,8 @@
 {
-  "meteorRelease": "none",
-  "clientPaths": {
-    "web.browser": "../web.browser/program.json"
-  }
+  "meteorRelease": "METEOR@1.8.1",
+  "appId": "kzghbbfbsi3.okc0cepo3p7a",
+  "clientArchs": [
+    "web.browser",
+    "web.browser.legacy"
+  ]
 }

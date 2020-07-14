@@ -2,33 +2,41 @@
 
 /* Imports */
 var Meteor = Package.meteor.Meteor;
+var global = Package.meteor.global;
+var meteorEnv = Package.meteor.meteorEnv;
 
 /* Package-scope variables */
 var NpmModuleMongodb, NpmModuleMongodbVersion;
 
 (function(){
 
-/////////////////////////////////////////////////////////////////////////
-//                                                                     //
-// packages/npm-mongo/wrapper.js                                       //
-//                                                                     //
-/////////////////////////////////////////////////////////////////////////
-                                                                       //
-NpmModuleMongodb = Npm.require('mongodb');                             // 1
+/////////////////////////////////////////////////////////////////////////////
+//                                                                         //
+// packages/npm-mongo/wrapper.js                                           //
+//                                                                         //
+/////////////////////////////////////////////////////////////////////////////
+                                                                           //
+const oldNoDeprecationValue = process.noDeprecation;
+try {
+  // Silence deprecation warnings introduced in a patch update to mongodb:
+  // https://github.com/meteor/meteor/pull/9942#discussion_r218564879
+  process.noDeprecation = true;
+  NpmModuleMongodb = Npm.require('mongodb');
+} finally {
+  process.noDeprecation = oldNoDeprecationValue;
+}
+
 NpmModuleMongodbVersion = Npm.require('mongodb/package.json').version;
-                                                                       // 3
-/////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////
 
 }).call(this);
 
 
 /* Exports */
-if (typeof Package === 'undefined') Package = {};
-Package['npm-mongo'] = {
+Package._define("npm-mongo", {
   NpmModuleMongodb: NpmModuleMongodb,
   NpmModuleMongodbVersion: NpmModuleMongodbVersion
-};
+});
 
 })();
-
-//# sourceMappingURL=npm-mongo.js.map
