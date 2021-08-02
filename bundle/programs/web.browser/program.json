@@ -2,24 +2,24 @@
   "format": "web-program-pre1",
   "manifest": [
     {
-      "path": "1a8f4d95cff4d55fd6eeeda91070b86e1c73227c.js",
+      "path": "7e2e1b2548fd1b5f2e0219381ddf616635592bad.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/1a8f4d95cff4d55fd6eeeda91070b86e1c73227c.js?meteor_js_resource=true",
-      "size": 773583,
-      "hash": "1a8f4d95cff4d55fd6eeeda91070b86e1c73227c",
-      "sri": "SSvMo6+fnUML4iEoSbrO9pV58q26aHvVQDXaZjlgS4uhYqPoIY7mY8rc5UcrJrINkY1b5+EoZGSe3FDsffQRFw=="
+      "url": "/7e2e1b2548fd1b5f2e0219381ddf616635592bad.js?meteor_js_resource=true",
+      "size": 777622,
+      "hash": "7e2e1b2548fd1b5f2e0219381ddf616635592bad",
+      "sri": "X4iirqLBW0mSQLzgiJcJdWFSliaHfVcAWbik2DdT1gTATV1/Fdd8YZaAVnNjiI6wiXBBPCRVm/YpeJ97tIW9nQ=="
     },
     {
-      "path": "1a8f4d95cff4d55fd6eeeda91070b86e1c73227c.stats.json",
+      "path": "7e2e1b2548fd1b5f2e0219381ddf616635592bad.stats.json",
       "where": "client",
       "type": "json",
       "cacheable": true,
-      "url": "/1a8f4d95cff4d55fd6eeeda91070b86e1c73227c.stats.json?meteor_js_resource=true",
-      "size": 18142,
-      "hash": "bac389e917db2a1dc2d800e195d29ec7f588bf13",
-      "sri": "S52cltucSgUsIrMDIIryl5LdZcpP0v3h9ECIyUC6gtD0IJrP5tXeHtw4oYi7Hh+f1NrQGaC+u9orhyL1mkp/VQ=="
+      "url": "/7e2e1b2548fd1b5f2e0219381ddf616635592bad.stats.json?meteor_js_resource=true",
+      "size": 18245,
+      "hash": "d82d91f5c1b8d1d7a192283f888795ede8f16a7b",
+      "sri": "8wC0j59FDmbT5M/OR+bjgrrIWrV67m60zKiTD5o3MdLn7GYlaM82D47e+W8axlYu8hU40U51TnIPDejy5NT7qw=="
     },
     {
       "path": "865aead4bcad1ea55968bf9fd8cd7f190738a3c6.css",
@@ -217,8 +217,8 @@
       "type": "asset",
       "cacheable": false,
       "url": "/img/logo.png",
-      "size": 6145,
-      "hash": "8ae99df49017efa0a717c5686088da5c022649e8",
+      "size": 9594,
+      "hash": "c75cd023d1ed9d03d2206afd85ce6e47c10d614e",
       "sri": null
     },
     {
@@ -289,6 +289,26 @@
       "url": "/img/icons/beekee-live.psd",
       "size": 75574,
       "hash": "ab284f5b573696e8a303ca282e13817c7c32b464",
+      "sri": null
+    },
+    {
+      "path": "app/img/icons/beekee-meeting.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/icons/beekee-meeting.png",
+      "size": 8325,
+      "hash": "90b74b76ce7e9a94a046df3722581d9d17c5f838",
+      "sri": null
+    },
+    {
+      "path": "app/img/icons/beekee-meeting.psd",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/icons/beekee-meeting.psd",
+      "size": 130162,
+      "hash": "8b863cac7a90810a3784654fb9a85c2d33dae35e",
       "sri": null
     },
     {
