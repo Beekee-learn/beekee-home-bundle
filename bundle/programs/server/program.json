@@ -362,6 +362,9 @@
       "path": "packages/meteorhacks_inject-initial.js"
     },
     {
+      "path": "packages/copleykj_livestamp.js"
+    },
+    {
       "path": "packages/livedata.js"
     },
     {

@@ -3,22 +3,22 @@
     "name": "standard-minifier-js",
     "version": "2.4.1"
   },
-  "totalMinifiedBytes": 906587,
-  "totalMinifiedGzipBytes": 261910,
+  "totalMinifiedBytes": 945253,
+  "totalMinifiedGzipBytes": 274962,
   "minifiedBytesByPackage": {
     "packages/meteor.js": 9484,
     "packages/meteor-base.js": 31,
     "packages/mobile-experience.js": 37,
     "packages/modules-runtime.js": 4199,
     "packages/modules.js": [
-      16210,
+      16255,
       {
         "node_modules": {
           "meteor": {
             "modules": {
               "client.js": 124,
               "css.js": 261,
-              "install-packages.js": 2716,
+              "install-packages.js": 2761,
               "process.js": 347,
               "reify.js": 71,
               "stubs.js": 97,
@@ -859,6 +859,8 @@
     "packages/hex7c0_app-dump.js": 4471,
     "packages/chuangbo_cookie.js": 1229,
     "packages/meteorhacks_inject-initial.js": 577,
+    "packages/momentjs_moment.js": 34909,
+    "packages/copleykj_livestamp.js": 2089,
     "packages/webapp.js": [
       887,
       {
@@ -888,11 +890,11 @@
       }
     ],
     "app/global-imports.js": [
-      1641,
+      1691,
       {}
     ],
     "app/app.js": [
-      81184,
+      82753,
       {
         "imports": {
           "ui": {
@@ -923,7 +925,7 @@
             "restore.html": 59,
             "template.restore.js": 1282,
             "settings.html": 60,
-            "template.settings.js": 9288,
+            "template.settings.js": 10040,
             "store.html": 57,
             "template.store.js": 2729,
             "userSettings.html": 64,
@@ -940,12 +942,13 @@
             "meeting.js": 635,
             "register.js": 1460,
             "restore.js": 176,
-            "settings.js": 4887,
+            "settings.js": 5263,
             "store.js": 1343,
             "userSettings.js": 659
           },
           "api": {
             "apps.js": 342,
+            "synchronizations.js": 372,
             "users.js": 374
           }
         },
@@ -960,7 +963,7 @@
             "fr-FR.i18n.json": 113
           },
           "app_loader.js": 486,
-          "router.js": 1764
+          "router.js": 1810
         }
       }
     ],

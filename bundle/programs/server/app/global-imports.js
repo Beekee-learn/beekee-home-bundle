@@ -21,6 +21,7 @@ appDump = Package['hex7c0:app-dump'].appDump;
 check = Package.check.check;
 Match = Package.check.Match;
 Inject = Package['meteorhacks:inject-initial'].Inject;
+livestamp = Package['copleykj:livestamp'].livestamp;
 Meteor = Package.meteor.Meteor;
 global = Package.meteor.global;
 meteorEnv = Package.meteor.meteorEnv;

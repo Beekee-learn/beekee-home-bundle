@@ -158,6 +158,7 @@ install("softwarerero:accounts-t9n");
 install("hex7c0:app-dump");
 install("chuangbo:cookie");
 install("meteorhacks:inject-initial");
+install("copleykj:livestamp");
 install("livedata");
 install("hot-code-push");
 install("launch-screen");
