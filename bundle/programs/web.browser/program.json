@@ -2,24 +2,24 @@
   "format": "web-program-pre1",
   "manifest": [
     {
-      "path": "f9987963d8a1135f1fa783e7c05c362bd1b981e3.js",
+      "path": "48807538640daafbeaae25a1171d3ef45381c795.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/f9987963d8a1135f1fa783e7c05c362bd1b981e3.js?meteor_js_resource=true",
-      "size": 819925,
-      "hash": "f9987963d8a1135f1fa783e7c05c362bd1b981e3",
-      "sri": "lnzNlaHuk+k2XDOf7TG0SJEOkO28evaIM70jaYAbb/dbchXruE0ZMcz2zDtNK2lFa/aQ84A/MRrEcTitXle4EA=="
+      "url": "/48807538640daafbeaae25a1171d3ef45381c795.js?meteor_js_resource=true",
+      "size": 823797,
+      "hash": "48807538640daafbeaae25a1171d3ef45381c795",
+      "sri": "jEN5Xo+0YfitcM0EFehYUttG1dxcQR1/uJn1VCAvf9ZXWfc0aenp+NfWicH469jY/WUOFkAx3wuDaNjokNgnnQ=="
     },
     {
-      "path": "f9987963d8a1135f1fa783e7c05c362bd1b981e3.stats.json",
+      "path": "48807538640daafbeaae25a1171d3ef45381c795.stats.json",
       "where": "client",
       "type": "json",
       "cacheable": true,
-      "url": "/f9987963d8a1135f1fa783e7c05c362bd1b981e3.stats.json?meteor_js_resource=true",
-      "size": 18484,
-      "hash": "53bb529e4541486709c4e5e1b6230c03d3ba6e59",
-      "sri": "JVKCsUMlDXfm204y3xcilomTHhE1fDJugk1qdo315NvlGHs/gtFbeQBgwvYYxcot09bowq6Pu9qlyZ5X/wYHmA=="
+      "url": "/48807538640daafbeaae25a1171d3ef45381c795.stats.json?meteor_js_resource=true",
+      "size": 18485,
+      "hash": "9424a328d115ae6194b04099ca7c9e2ffba0ddf4",
+      "sri": "meluct7V+jmG9FIrmoQM9R6qcR8epxq0aK6M0B2u4XQTQbJZGsEwK8hLuXobPz+VCYEVZRCrq9a5EvvjbjLezg=="
     },
     {
       "path": "865aead4bcad1ea55968bf9fd8cd7f190738a3c6.css",
@@ -32,13 +32,23 @@
       "sri": "9AsarNNMcETZslDu9RoI5f5oCQJ/N+s1mzK/X71X5FsdvFdKQpoqUI809sUFZU96jokLBkuNwL5sUKhSXTAUXg=="
     },
     {
-      "path": "app/doc/beekeebox_teacherdoc.pdf",
+      "path": "app/doc/beekeebox_manual.pdf",
       "where": "client",
       "type": "asset",
       "cacheable": false,
-      "url": "/doc/beekeebox_teacherdoc.pdf",
-      "size": 59621,
-      "hash": "cdcf98d6a08aa28deeeae90e34683cb7f30952ec",
+      "url": "/doc/beekeebox_manual.pdf",
+      "size": 552776,
+      "hash": "f832232cc1277566706d15d63c272f27bccfa807",
+      "sri": null
+    },
+    {
+      "path": "app/doc/beekeehub_manual.pdf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/doc/beekeehub_manual.pdf",
+      "size": 594504,
+      "hash": "e843f37eec3b323bd07e19f8d2b1eec04da1bee4",
       "sri": null
     },
     {
