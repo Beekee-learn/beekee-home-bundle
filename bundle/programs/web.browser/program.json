@@ -2,24 +2,24 @@
   "format": "web-program-pre1",
   "manifest": [
     {
-      "path": "de5bc41adde1f59252a2a0c374e6eab104599d90.js",
+      "path": "6ed76fd953458f0f8f8ee0d1e44de47e1b2cb4c5.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/de5bc41adde1f59252a2a0c374e6eab104599d90.js?meteor_js_resource=true",
-      "size": 825671,
-      "hash": "de5bc41adde1f59252a2a0c374e6eab104599d90",
-      "sri": "O+gfGb0Fo+MI4Kl34pXMN5X5W4BCZhbTBOfehWgPgznoBhMVdKVOr+PQ4vI0k5R9wFv5D6GgGi0gp/EtYLd+Zw=="
+      "url": "/6ed76fd953458f0f8f8ee0d1e44de47e1b2cb4c5.js?meteor_js_resource=true",
+      "size": 826241,
+      "hash": "6ed76fd953458f0f8f8ee0d1e44de47e1b2cb4c5",
+      "sri": "00tzTYo5aEpb3e2HAsusq3rj29aQ4a2ZSKNeav1off8UhbplJB4zKj2dYt/hf/+l4dJ+3mJLIot2fZOw3QIufg=="
     },
     {
-      "path": "de5bc41adde1f59252a2a0c374e6eab104599d90.stats.json",
+      "path": "6ed76fd953458f0f8f8ee0d1e44de47e1b2cb4c5.stats.json",
       "where": "client",
       "type": "json",
       "cacheable": true,
-      "url": "/de5bc41adde1f59252a2a0c374e6eab104599d90.stats.json?meteor_js_resource=true",
+      "url": "/6ed76fd953458f0f8f8ee0d1e44de47e1b2cb4c5.stats.json?meteor_js_resource=true",
       "size": 18485,
-      "hash": "af3ec89f6e1f08fc2cc9720cfcee7bcc3b49f7de",
-      "sri": "3ICXDFwrMbEoNxurx+hLxpQHy572ufJ92BQ24+ojXw8uUVWqgNe7BulVY9dMFBpHjBXJX7NuJWpHJJkjzma4yw=="
+      "hash": "7ef4a447e734a9e452fd599ab929fdb122462306",
+      "sri": "NooMMPMFu6HXODWJBx7OWJZ6e+U5IZrY2NIlbH26xORKlKP78Sp9/Y4O7wk+BAStJIl4i9vwkwwECWAIFy17KA=="
     },
     {
       "path": "865aead4bcad1ea55968bf9fd8cd7f190738a3c6.css",
@@ -309,6 +309,16 @@
       "url": "/img/icons/beekee-wheel.png",
       "size": 41484,
       "hash": "b665dc1de0386b8912484cd99b83f99b9f3cffca",
+      "sri": null
+    },
+    {
+      "path": "app/img/icons/etherpad.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/icons/etherpad.png",
+      "size": 52666,
+      "hash": "28f6ca5ac80c7642c30d33eb017523bff986888f",
       "sri": null
     },
     {
