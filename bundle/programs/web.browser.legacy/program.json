@@ -2,34 +2,34 @@
   "format": "web-program-pre1",
   "manifest": [
     {
-      "path": "19e17f4fa750d04261d86e4bf188c0b98d316c91.js",
+      "path": "361042cd62941a0413eb31a95de41ae70c51004d.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/19e17f4fa750d04261d86e4bf188c0b98d316c91.js?meteor_js_resource=true",
-      "size": 958950,
-      "hash": "19e17f4fa750d04261d86e4bf188c0b98d316c91",
-      "sri": "E8hig/uv5zUfPBhk1xT1oBqUjZGVdpMQM5+3JbUMFNlAgbmjc6dX1hLnyVzme4TPNSvYM/0FSbQqcByeUdMiWA=="
+      "url": "/361042cd62941a0413eb31a95de41ae70c51004d.js?meteor_js_resource=true",
+      "size": 957942,
+      "hash": "361042cd62941a0413eb31a95de41ae70c51004d",
+      "sri": "keMGrQfQFDcRIX8TsUMuUcJcjyNKCxrGKbXOcFm+Xxwsk5UPvJsD4OhXVvM3tqZ03t4W73sS6W/3aZISKHmM3g=="
     },
     {
-      "path": "19e17f4fa750d04261d86e4bf188c0b98d316c91.stats.json",
+      "path": "361042cd62941a0413eb31a95de41ae70c51004d.stats.json",
       "where": "client",
       "type": "json",
       "cacheable": true,
-      "url": "/19e17f4fa750d04261d86e4bf188c0b98d316c91.stats.json?meteor_js_resource=true",
+      "url": "/361042cd62941a0413eb31a95de41ae70c51004d.stats.json?meteor_js_resource=true",
       "size": 28354,
-      "hash": "63550a119fe6a5d6c8cc8c49871fb9d5f23e9417",
-      "sri": "ZESzQzYCP0ZiDKOMPjicdV7/W7VOJQKFeQ5GuRGyT3gZG3yd4dfgFWzeW+If0FyVMW32O0TjClBN58bYDU/YVg=="
+      "hash": "64eaea9940d58470a1d46d6f3c2d525e9e4582b5",
+      "sri": "29bLQ4SI0wVc/XS3zUru6aRl8BFE/7UXW+8npt7cDvkspbQ0oq7cN3WK2OijSqWwd4Sm1x0GH+6BR9U/+saCow=="
     },
     {
-      "path": "e0c90479eb3264305455d0ee3f24f67b0da7f2e5.css",
+      "path": "e617e314bbed1a961d822bd2ab5e83ee7f4c2fe8.css",
       "where": "client",
       "type": "css",
       "cacheable": true,
-      "url": "/e0c90479eb3264305455d0ee3f24f67b0da7f2e5.css?meteor_css_resource=true",
-      "size": 146319,
-      "hash": "e0c90479eb3264305455d0ee3f24f67b0da7f2e5",
-      "sri": "ZPhJblZuENr+gmdhA5XFGdOQD+F80nhL1oycDcsp232L0FsPPE9lJJn4iLH8uqorFpyGzWrvGJqvrwymgENwYg=="
+      "url": "/e617e314bbed1a961d822bd2ab5e83ee7f4c2fe8.css?meteor_css_resource=true",
+      "size": 146364,
+      "hash": "e617e314bbed1a961d822bd2ab5e83ee7f4c2fe8",
+      "sri": "hHGmxsG3bpxfhifZ5REhJxex699rCemBGREs9BKBTGF61gLoM/zmSMV1FGxPiUBk+BZs1zPJBnk/o1m8KWJPQA=="
     },
     {
       "path": "app/doc/beekeebox_manual.pdf",
@@ -267,6 +267,16 @@
       "type": "asset",
       "cacheable": false,
       "url": "/img/icons/beekee-live.png",
+      "size": 6127,
+      "hash": "71a1b75f01ddf7fc9200fe5b15c029e38ac75c43",
+      "sri": null
+    },
+    {
+      "path": "app/img/icons/beekee-live2.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/icons/beekee-live2.png",
       "size": 21836,
       "hash": "bf100824b4fe58e1f168f0cb08edff781678fd7a",
       "sri": null
@@ -287,6 +297,16 @@
       "type": "asset",
       "cacheable": false,
       "url": "/img/icons/beekee-resources.png",
+      "size": 5477,
+      "hash": "8882a9c9129f9ce141aed102c0c141027ebcc0c2",
+      "sri": null
+    },
+    {
+      "path": "app/img/icons/beekee-resources2.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/icons/beekee-resources2.png",
       "size": 19574,
       "hash": "2b3b53f01b56a52b257e5afd5c7bca11022c3468",
       "sri": null
@@ -297,6 +317,16 @@
       "type": "asset",
       "cacheable": false,
       "url": "/img/icons/beekee-timer.png",
+      "size": 7742,
+      "hash": "4feb9ecfc7626744a1b0d7fa6c3083f5199f3eb0",
+      "sri": null
+    },
+    {
+      "path": "app/img/icons/beekee-timer2.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/icons/beekee-timer2.png",
       "size": 26095,
       "hash": "5293179d732b349f52427efe937ea0183e684aca",
       "sri": null
@@ -307,8 +337,78 @@
       "type": "asset",
       "cacheable": false,
       "url": "/img/icons/beekee-wheel.png",
+      "size": 11113,
+      "hash": "658c12df4887e1f79638b474de187e21d0ca6200",
+      "sri": null
+    },
+    {
+      "path": "app/img/icons/beekee-wheel2.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/icons/beekee-wheel2.png",
       "size": 41484,
       "hash": "b665dc1de0386b8912484cd99b83f99b9f3cffca",
+      "sri": null
+    },
+    {
+      "path": "app/img/icons/digibuzzer.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/icons/digibuzzer.png",
+      "size": 4476,
+      "hash": "d35933b0d4d6a41ad965644184797553e7c49982",
+      "sri": null
+    },
+    {
+      "path": "app/img/icons/digibuzzer2.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/icons/digibuzzer2.png",
+      "size": 2086,
+      "hash": "47fda4ae9c6c7888b0438805cbfdaede7aa6ac0f",
+      "sri": null
+    },
+    {
+      "path": "app/img/icons/digipad.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/icons/digipad.png",
+      "size": 4403,
+      "hash": "0212af15fe1178afe6ef12eedcc07bf4b53c97f7",
+      "sri": null
+    },
+    {
+      "path": "app/img/icons/digipad2.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/icons/digipad2.png",
+      "size": 2154,
+      "hash": "940b2cf5464b3f9415878c4f2a1902c97f35bdf6",
+      "sri": null
+    },
+    {
+      "path": "app/img/icons/digistorm.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/icons/digistorm.png",
+      "size": 4992,
+      "hash": "776b500f55a95f2dbed75656c499bfa1391a6d2a",
+      "sri": null
+    },
+    {
+      "path": "app/img/icons/digistorm2.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/icons/digistorm2.png",
+      "size": 2428,
+      "hash": "539e231989198132c73ee298d82f50f7384c2d02",
       "sri": null
     },
     {
@@ -585,7 +685,7 @@
       "path": "head.html",
       "where": "internal",
       "type": "head",
-      "hash": "1e739956f6e3833821ac9b1c14827df33b3f0547"
+      "hash": "0bc0bda9d8ebfe61a4a394dcf5b4f16b4ad93438"
     }
   ]
 }
