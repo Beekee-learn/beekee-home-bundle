@@ -352,11 +352,11 @@
       "sri": null
     },
     {
-      "path": "app/img/icons/digibuzzer.png",
+      "path": "app/img/icons/buzzer.png",
       "where": "client",
       "type": "asset",
       "cacheable": false,
-      "url": "/img/icons/digibuzzer.png",
+      "url": "/img/icons/buzzer.png",
       "size": 4476,
       "hash": "d35933b0d4d6a41ad965644184797553e7c49982",
       "sri": null
@@ -372,16 +372,6 @@
       "sri": null
     },
     {
-      "path": "app/img/icons/digipad.png",
-      "where": "client",
-      "type": "asset",
-      "cacheable": false,
-      "url": "/img/icons/digipad.png",
-      "size": 4403,
-      "hash": "0212af15fe1178afe6ef12eedcc07bf4b53c97f7",
-      "sri": null
-    },
-    {
       "path": "app/img/icons/digipad2.png",
       "where": "client",
       "type": "asset",
@@ -389,16 +379,6 @@
       "url": "/img/icons/digipad2.png",
       "size": 2154,
       "hash": "940b2cf5464b3f9415878c4f2a1902c97f35bdf6",
-      "sri": null
-    },
-    {
-      "path": "app/img/icons/digistorm.png",
-      "where": "client",
-      "type": "asset",
-      "cacheable": false,
-      "url": "/img/icons/digistorm.png",
-      "size": 4992,
-      "hash": "776b500f55a95f2dbed75656c499bfa1391a6d2a",
       "sri": null
     },
     {
@@ -452,6 +432,16 @@
       "sri": null
     },
     {
+      "path": "app/img/icons/pad.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/icons/pad.png",
+      "size": 4403,
+      "hash": "0212af15fe1178afe6ef12eedcc07bf4b53c97f7",
+      "sri": null
+    },
+    {
       "path": "app/img/icons/settings.png",
       "where": "client",
       "type": "asset",
@@ -469,6 +459,16 @@
       "url": "/img/icons/store.png",
       "size": 24250,
       "hash": "e15b048bb299d120ac476e80be2e97278f25cb7e",
+      "sri": null
+    },
+    {
+      "path": "app/img/icons/storm.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/icons/storm.png",
+      "size": 4992,
+      "hash": "776b500f55a95f2dbed75656c499bfa1391a6d2a",
       "sri": null
     },
     {
