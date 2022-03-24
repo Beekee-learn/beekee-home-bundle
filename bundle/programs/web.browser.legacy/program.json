@@ -2,34 +2,34 @@
   "format": "web-program-pre1",
   "manifest": [
     {
-      "path": "361042cd62941a0413eb31a95de41ae70c51004d.js",
+      "path": "fc34e3f45fe692ba157c2441eac29f0c0c364b27.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/361042cd62941a0413eb31a95de41ae70c51004d.js?meteor_js_resource=true",
-      "size": 957942,
-      "hash": "361042cd62941a0413eb31a95de41ae70c51004d",
-      "sri": "keMGrQfQFDcRIX8TsUMuUcJcjyNKCxrGKbXOcFm+Xxwsk5UPvJsD4OhXVvM3tqZ03t4W73sS6W/3aZISKHmM3g=="
+      "url": "/fc34e3f45fe692ba157c2441eac29f0c0c364b27.js?meteor_js_resource=true",
+      "size": 957768,
+      "hash": "fc34e3f45fe692ba157c2441eac29f0c0c364b27",
+      "sri": "JjdgrfoUI7FZn0IZBdbcDva0P967JWy3DaCOzR1kPf+xK4r/f8unmDVctcVzm+N9UlvQu42BQbwaO8ZGbaBgwg=="
     },
     {
-      "path": "361042cd62941a0413eb31a95de41ae70c51004d.stats.json",
+      "path": "fc34e3f45fe692ba157c2441eac29f0c0c364b27.stats.json",
       "where": "client",
       "type": "json",
       "cacheable": true,
-      "url": "/361042cd62941a0413eb31a95de41ae70c51004d.stats.json?meteor_js_resource=true",
+      "url": "/fc34e3f45fe692ba157c2441eac29f0c0c364b27.stats.json?meteor_js_resource=true",
       "size": 28354,
-      "hash": "64eaea9940d58470a1d46d6f3c2d525e9e4582b5",
-      "sri": "29bLQ4SI0wVc/XS3zUru6aRl8BFE/7UXW+8npt7cDvkspbQ0oq7cN3WK2OijSqWwd4Sm1x0GH+6BR9U/+saCow=="
+      "hash": "58c762152340f643f348a60134fdc696d9e06f9f",
+      "sri": "ZSLLEJgmf6E1nsk5jUCSV0G/iDNl1UmOcWCUd5xJWywFwgPVW1c35gWydF2bXlAEVtARmk4JAQauTEwDhoVDgw=="
     },
     {
-      "path": "e617e314bbed1a961d822bd2ab5e83ee7f4c2fe8.css",
+      "path": "1bc92fa0f6eb2dae1c01fd12f08e9bb00d0e0bed.css",
       "where": "client",
       "type": "css",
       "cacheable": true,
-      "url": "/e617e314bbed1a961d822bd2ab5e83ee7f4c2fe8.css?meteor_css_resource=true",
-      "size": 146364,
-      "hash": "e617e314bbed1a961d822bd2ab5e83ee7f4c2fe8",
-      "sri": "hHGmxsG3bpxfhifZ5REhJxex699rCemBGREs9BKBTGF61gLoM/zmSMV1FGxPiUBk+BZs1zPJBnk/o1m8KWJPQA=="
+      "url": "/1bc92fa0f6eb2dae1c01fd12f08e9bb00d0e0bed.css?meteor_css_resource=true",
+      "size": 146533,
+      "hash": "1bc92fa0f6eb2dae1c01fd12f08e9bb00d0e0bed",
+      "sri": "RnIYaE81pyD6Owfqh6vgZ7hRZSzRo3kQ+hzYlEi2iTJE+NvnhKp0q3ZXo2Vd64iSP6XDg1d8E6KDabK0gZ/zaQ=="
     },
     {
       "path": "app/doc/beekeebox_manual.pdf",
