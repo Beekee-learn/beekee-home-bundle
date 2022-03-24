@@ -272,16 +272,6 @@
       "sri": null
     },
     {
-      "path": "app/img/icons/beekee-live2.png",
-      "where": "client",
-      "type": "asset",
-      "cacheable": false,
-      "url": "/img/icons/beekee-live2.png",
-      "size": 21836,
-      "hash": "bf100824b4fe58e1f168f0cb08edff781678fd7a",
-      "sri": null
-    },
-    {
       "path": "app/img/icons/beekee-meeting.png",
       "where": "client",
       "type": "asset",
@@ -297,18 +287,8 @@
       "type": "asset",
       "cacheable": false,
       "url": "/img/icons/beekee-resources.png",
-      "size": 5477,
-      "hash": "8882a9c9129f9ce141aed102c0c141027ebcc0c2",
-      "sri": null
-    },
-    {
-      "path": "app/img/icons/beekee-resources2.png",
-      "where": "client",
-      "type": "asset",
-      "cacheable": false,
-      "url": "/img/icons/beekee-resources2.png",
-      "size": 19574,
-      "hash": "2b3b53f01b56a52b257e5afd5c7bca11022c3468",
+      "size": 5430,
+      "hash": "c3b8c9edd54bc5a332312afb78ed55c53f965451",
       "sri": null
     },
     {
@@ -317,18 +297,8 @@
       "type": "asset",
       "cacheable": false,
       "url": "/img/icons/beekee-timer.png",
-      "size": 7742,
-      "hash": "4feb9ecfc7626744a1b0d7fa6c3083f5199f3eb0",
-      "sri": null
-    },
-    {
-      "path": "app/img/icons/beekee-timer2.png",
-      "where": "client",
-      "type": "asset",
-      "cacheable": false,
-      "url": "/img/icons/beekee-timer2.png",
-      "size": 26095,
-      "hash": "5293179d732b349f52427efe937ea0183e684aca",
+      "size": 7470,
+      "hash": "a4353d96fd78b2f670a86d325109c9ab51b4308a",
       "sri": null
     },
     {
@@ -342,16 +312,6 @@
       "sri": null
     },
     {
-      "path": "app/img/icons/beekee-wheel2.png",
-      "where": "client",
-      "type": "asset",
-      "cacheable": false,
-      "url": "/img/icons/beekee-wheel2.png",
-      "size": 41484,
-      "hash": "b665dc1de0386b8912484cd99b83f99b9f3cffca",
-      "sri": null
-    },
-    {
       "path": "app/img/icons/buzzer.png",
       "where": "client",
       "type": "asset",
@@ -359,36 +319,6 @@
       "url": "/img/icons/buzzer.png",
       "size": 4476,
       "hash": "d35933b0d4d6a41ad965644184797553e7c49982",
-      "sri": null
-    },
-    {
-      "path": "app/img/icons/digibuzzer2.png",
-      "where": "client",
-      "type": "asset",
-      "cacheable": false,
-      "url": "/img/icons/digibuzzer2.png",
-      "size": 2086,
-      "hash": "47fda4ae9c6c7888b0438805cbfdaede7aa6ac0f",
-      "sri": null
-    },
-    {
-      "path": "app/img/icons/digipad2.png",
-      "where": "client",
-      "type": "asset",
-      "cacheable": false,
-      "url": "/img/icons/digipad2.png",
-      "size": 2154,
-      "hash": "940b2cf5464b3f9415878c4f2a1902c97f35bdf6",
-      "sri": null
-    },
-    {
-      "path": "app/img/icons/digistorm2.png",
-      "where": "client",
-      "type": "asset",
-      "cacheable": false,
-      "url": "/img/icons/digistorm2.png",
-      "size": 2428,
-      "hash": "539e231989198132c73ee298d82f50f7384c2d02",
       "sri": null
     },
     {
