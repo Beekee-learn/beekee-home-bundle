@@ -3,8 +3,8 @@
     "name": "standard-minifier-js",
     "version": "2.4.1"
   },
-  "totalMinifiedBytes": 829812,
-  "totalMinifiedGzipBytes": 242965,
+  "totalMinifiedBytes": 829765,
+  "totalMinifiedGzipBytes": 242960,
   "minifiedBytesByPackage": {
     "packages/meteor.js": 9484,
     "packages/meteor-base.js": 31,
@@ -665,14 +665,14 @@
       {}
     ],
     "app/app.js": [
-      94950,
+      94903,
       {
         "imports": {
           "ui": {
             "admin_create_account.html": 72,
             "template.admin_create_account.js": 3430,
             "admin_edit_account.html": 70,
-            "template.admin_edit_account.js": 3937,
+            "template.admin_edit_account.js": 3840,
             "backHeader.html": 62,
             "template.backHeader.js": 737,
             "backup.html": 58,
@@ -704,11 +704,11 @@
             "userSettings.html": 64,
             "template.userSettings.js": 1694,
             "admin_create_account.js": 1606,
-            "admin_edit_account.js": 1898,
+            "admin_edit_account.js": 1849,
             "backHeader.js": 203,
             "backup.js": 164,
             "help.js": 534,
-            "index.js": 798,
+            "index.js": 897,
             "indexHeader.js": 180,
             "login.js": 1156,
             "manageUsers.js": 1214,
