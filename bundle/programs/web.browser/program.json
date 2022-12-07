@@ -2,24 +2,24 @@
   "format": "web-program-pre1",
   "manifest": [
     {
-      "path": "278c35c3fc104651737f6f49237a782fca1f2b09.js",
+      "path": "97a6780de1b2e1f423abaaa94cbc7d168dcb6f8c.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/278c35c3fc104651737f6f49237a782fca1f2b09.js?meteor_js_resource=true",
-      "size": 830926,
-      "hash": "278c35c3fc104651737f6f49237a782fca1f2b09",
-      "sri": "pxqSlYCoIgvh9eeDC5kemqZo73N1tGv5fw2LHWNA5NKuag7MioBKXhCyuzVdmNbK97p0gnznb06iscTh2U4bxQ=="
+      "url": "/97a6780de1b2e1f423abaaa94cbc7d168dcb6f8c.js?meteor_js_resource=true",
+      "size": 830927,
+      "hash": "97a6780de1b2e1f423abaaa94cbc7d168dcb6f8c",
+      "sri": "KTWMwf+GqzatXnxVrAn3oZxkv+AB7X33JWRkPPATM489oM9qboZLpv/wolfDQbeuHkdKwg59HAeHHzK943A+9A=="
     },
     {
-      "path": "278c35c3fc104651737f6f49237a782fca1f2b09.stats.json",
+      "path": "97a6780de1b2e1f423abaaa94cbc7d168dcb6f8c.stats.json",
       "where": "client",
       "type": "json",
       "cacheable": true,
-      "url": "/278c35c3fc104651737f6f49237a782fca1f2b09.stats.json?meteor_js_resource=true",
+      "url": "/97a6780de1b2e1f423abaaa94cbc7d168dcb6f8c.stats.json?meteor_js_resource=true",
       "size": 18485,
-      "hash": "295e1c55438c28401f6678e53630cb7efa85ff65",
-      "sri": "wN4BTQSn0WW3ZeBUtsQHyY3Esg6mTBnX5Z6Q5gXDTTDSA681N3CAkoBgrpKR3JPAjbKYPAspM49U5zJDLrKwMw=="
+      "hash": "a7715cd0e4633bb1acabf15f1c48b8fd519ba821",
+      "sri": "7hSj1paKykTB2IRbStV3vV47T8H46WtD/mbI6ttfmGezrCLIrjhpG+1GN1ij6mv5dM9hgm9BsfW//ePgFRG09Q=="
     },
     {
       "path": "987369e47e6c5cbce1a636153dd29ee92b05f1b4.css",
@@ -247,8 +247,8 @@
       "type": "asset",
       "cacheable": false,
       "url": "/img/logo.png",
-      "size": 84111,
-      "hash": "78c026c34a37c9d307bd6fdd3b503e0a9ed7f5ff",
+      "size": 102977,
+      "hash": "a2a77f41f684e2d0576eb745bac27b2249daffb4",
       "sri": null
     },
     {
@@ -259,6 +259,16 @@
       "url": "/img/logo_black.svg",
       "size": 1987,
       "hash": "c716e276afdbc998e0da6a5f8e92bdb78f640004",
+      "sri": null
+    },
+    {
+      "path": "app/img/logo_original.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/logo_original.png",
+      "size": 84111,
+      "hash": "78c026c34a37c9d307bd6fdd3b503e0a9ed7f5ff",
       "sri": null
     },
     {
