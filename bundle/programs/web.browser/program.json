@@ -247,8 +247,8 @@
       "type": "asset",
       "cacheable": false,
       "url": "/img/logo.png",
-      "size": 102977,
-      "hash": "a2a77f41f684e2d0576eb745bac27b2249daffb4",
+      "size": 137111,
+      "hash": "cef82afcca13f693561b6d69fe09f3678bc70cc2",
       "sri": null
     },
     {
@@ -387,6 +387,16 @@
       "type": "asset",
       "cacheable": false,
       "url": "/img/icons/moodle.png",
+      "size": 19828,
+      "hash": "4279dd3bf6fe6d50842c6af0ab2bb857d279d0db",
+      "sri": null
+    },
+    {
+      "path": "app/img/icons/moodle_original.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/icons/moodle_original.png",
       "size": 26600,
       "hash": "7828f4352040b653d85455c0a80c3bd1515c4e4f",
       "sri": null
