@@ -3,8 +3,8 @@
     "name": "standard-minifier-js",
     "version": "2.4.1"
   },
-  "totalMinifiedBytes": 860080,
-  "totalMinifiedGzipBytes": 248147,
+  "totalMinifiedBytes": 872591,
+  "totalMinifiedGzipBytes": 250138,
   "minifiedBytesByPackage": {
     "packages/meteor.js": 9484,
     "packages/meteor-base.js": 31,
@@ -665,28 +665,30 @@
       {}
     ],
     "app/app.js": [
-      125218,
+      137729,
       {
         "imports": {
           "ui": {
             "admin_create_account.html": 72,
-            "template.admin_create_account.js": 3816,
+            "template.admin_create_account.js": 3571,
             "admin_edit_account.html": 70,
-            "template.admin_edit_account.js": 3840,
+            "template.admin_edit_account.js": 3842,
             "backHeader.html": 62,
-            "template.backHeader.js": 653,
+            "template.backHeader.js": 527,
             "backup.html": 58,
             "template.backup.js": 1501,
             "help.html": 56,
             "template.help.js": 3867,
             "index.html": 57,
-            "template.index.js": 4994,
+            "template.index.js": 6376,
             "indexHeader.html": 63,
             "template.indexHeader.js": 1796,
+            "loading.html": 59,
+            "template.loading.js": 359,
             "login.html": 57,
-            "template.login.js": 2747,
+            "template.login.js": 2712,
             "manageUsers.html": 63,
-            "template.manageUsers.js": 2330,
+            "template.manageUsers.js": 3030,
             "meeting.html": 59,
             "template.meeting.js": 566,
             "register.html": 60,
@@ -694,35 +696,35 @@
             "restore.html": 59,
             "template.restore.js": 1282,
             "settings.html": 60,
-            "template.settings.js": 25110,
+            "template.settings.js": 31763,
             "settings_header.html": 67,
             "template.settings_header.js": 1554,
             "settings_sidebar.html": 68,
-            "template.settings_sidebar.js": 8042,
+            "template.settings_sidebar.js": 7816,
             "store.html": 57,
             "template.store.js": 2860,
             "sync_modal.html": 62,
             "template.sync_modal.js": 2430,
             "userSettings.html": 64,
-            "template.userSettings.js": 1975,
+            "template.userSettings.js": 3014,
             "admin_create_account.js": 1640,
             "admin_edit_account.js": 1778,
             "backHeader.js": 203,
             "backup.js": 164,
             "help.js": 534,
-            "index.js": 1957,
+            "index.js": 2325,
             "indexHeader.js": 180,
-            "login.js": 1156,
-            "manageUsers.js": 1214,
+            "login.js": 1247,
+            "manageUsers.js": 1309,
             "meeting.js": 630,
             "register.js": 1451,
             "restore.js": 167,
-            "settings.js": 13296,
+            "settings.js": 14100,
             "settings_header.js": 392,
-            "settings_sidebar.js": 375,
+            "settings_sidebar.js": 608,
             "store.js": 1325,
             "sync_modal.js": 726,
-            "userSettings.js": 686
+            "userSettings.js": 1501
           },
           "api": {
             "apps.js": 298,
@@ -736,15 +738,15 @@
           "template.main.js": 501,
           "custom.css": 12,
           "sidebar.css": 12,
-          "main.js": 1375
+          "main.js": 1412
         },
         "lib": {
           "i18n": {
-            "en.i18n.json": 16701,
+            "en.i18n.json": 17050,
             "fr-FR.i18n.json": 113
           },
-          "app_loader.js": 530,
-          "router.js": 1930
+          "app_loader.js": 577,
+          "router.js": 2001
         }
       }
     ],
