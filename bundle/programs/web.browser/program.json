@@ -2,24 +2,24 @@
   "format": "web-program-pre1",
   "manifest": [
     {
-      "path": "3839c51e3edbda14a918335b3539b330f85a2444.js",
+      "path": "d02a05b3f6fbec92db2c1568f0dae9a36f2e0674.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/3839c51e3edbda14a918335b3539b330f85a2444.js?meteor_js_resource=true",
-      "size": 872591,
-      "hash": "3839c51e3edbda14a918335b3539b330f85a2444",
-      "sri": "sDhZdXpJAMgyDyuQjGbMu+MaJrkZiS94eCV9nzhNNoGXdhPlvtDtoxZuvcanRz71HPl5phP9J/E48NwQINnN/g=="
+      "url": "/d02a05b3f6fbec92db2c1568f0dae9a36f2e0674.js?meteor_js_resource=true",
+      "size": 872842,
+      "hash": "d02a05b3f6fbec92db2c1568f0dae9a36f2e0674",
+      "sri": "V06MjYopHJDS55f33PCombYeNLQAItmpnGUJHxiEgdhbK0Xfsr4YQ/YcZuaElwBxW+yaKArXC5Q0h85NgBUQog=="
     },
     {
-      "path": "3839c51e3edbda14a918335b3539b330f85a2444.stats.json",
+      "path": "d02a05b3f6fbec92db2c1568f0dae9a36f2e0674.stats.json",
       "where": "client",
       "type": "json",
       "cacheable": true,
-      "url": "/3839c51e3edbda14a918335b3539b330f85a2444.stats.json?meteor_js_resource=true",
+      "url": "/d02a05b3f6fbec92db2c1568f0dae9a36f2e0674.stats.json?meteor_js_resource=true",
       "size": 18837,
-      "hash": "f54575dea813c84ec64835bfe3f134d3748be701",
-      "sri": "iOhPXrJC5DeLNQo5YVJN9mc+15R50WqdHrETQWiwHlOytQis/G4siR81DLqdvmR/KHyyblZ4WdnDBez112Ve2Q=="
+      "hash": "de60777aa321d375428b50336e42a0b1b16a4e47",
+      "sri": "Rx2AbOWXrYWieceQ/Llaul7dagdlRAYkw748/0W6D1ZIKeDlynsxVNNVEsjsKwENIyWpqf0MbVL05cw0SOcsvw=="
     },
     {
       "path": "ec27f7957d51e0afad2e81546492c2363c9f2459.css",
@@ -417,8 +417,8 @@
       "type": "asset",
       "cacheable": false,
       "url": "/img/icons/moodle.png",
-      "size": 26600,
-      "hash": "7828f4352040b653d85455c0a80c3bd1515c4e4f",
+      "size": 37481,
+      "hash": "ee2ba178dc2b7f850ed64db034ec31b07575cbad",
       "sri": null
     },
     {
@@ -429,6 +429,16 @@
       "url": "/img/icons/moodle_alt.png",
       "size": 19828,
       "hash": "4279dd3bf6fe6d50842c6af0ab2bb857d279d0db",
+      "sri": null
+    },
+    {
+      "path": "app/img/icons/moodle_original.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/icons/moodle_original.png",
+      "size": 26600,
+      "hash": "7828f4352040b653d85455c0a80c3bd1515c4e4f",
       "sri": null
     },
     {
