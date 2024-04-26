@@ -417,8 +417,8 @@
       "type": "asset",
       "cacheable": false,
       "url": "/img/icons/moodle.png",
-      "size": 37481,
-      "hash": "ee2ba178dc2b7f850ed64db034ec31b07575cbad",
+      "size": 26600,
+      "hash": "7828f4352040b653d85455c0a80c3bd1515c4e4f",
       "sri": null
     },
     {
@@ -429,16 +429,6 @@
       "url": "/img/icons/moodle_alt.png",
       "size": 19828,
       "hash": "4279dd3bf6fe6d50842c6af0ab2bb857d279d0db",
-      "sri": null
-    },
-    {
-      "path": "app/img/icons/moodle_original.png",
-      "where": "client",
-      "type": "asset",
-      "cacheable": false,
-      "url": "/img/icons/moodle_original.png",
-      "size": 26600,
-      "hash": "7828f4352040b653d85455c0a80c3bd1515c4e4f",
       "sri": null
     },
     {
@@ -489,6 +479,16 @@
       "url": "/img/icons/storm.png",
       "size": 5263,
       "hash": "2ea48ea4aefaa822e007137a39df95c539a5ceb5",
+      "sri": null
+    },
+    {
+      "path": "app/img/icons/tembo.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/icons/tembo.png",
+      "size": 37481,
+      "hash": "ee2ba178dc2b7f850ed64db034ec31b07575cbad",
       "sri": null
     },
     {
