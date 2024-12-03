@@ -22,14 +22,14 @@
       "sri": "GJy3CdDkT3/RvAv066tNih2yKgkOmth/6uE1qhCo40jVsT2LsCkg2livSuE8LMdidgs7EHvA724RFji3+ZtGvQ=="
     },
     {
-      "path": "ec27f7957d51e0afad2e81546492c2363c9f2459.css",
+      "path": "7f786260399bdd285eaf489a827d16b7f8cba6d8.css",
       "where": "client",
       "type": "css",
       "cacheable": true,
-      "url": "/ec27f7957d51e0afad2e81546492c2363c9f2459.css?meteor_css_resource=true",
-      "size": 152682,
-      "hash": "ec27f7957d51e0afad2e81546492c2363c9f2459",
-      "sri": "BHuhImgWmTuxoftFmHLFRBJlelVDBYAS5TmET1tTvMwkA1/FxL7pKmKzK+rUsx2LyGciQEC3ywWmOPqe3Nq9xQ=="
+      "url": "/7f786260399bdd285eaf489a827d16b7f8cba6d8.css?meteor_css_resource=true",
+      "size": 152811,
+      "hash": "7f786260399bdd285eaf489a827d16b7f8cba6d8",
+      "sri": "6/iLDCOPoBBkMgGf9Q2oqdyB2qAgIQGg0svnknRi7SY/wifwoH5hVxtavHxvlsUmn06zNyp0cKYOy2xrfCdd3w=="
     },
     {
       "path": "app/doc/beekeebox_quick_start_guide.pdf",
@@ -502,11 +502,31 @@
       "sri": null
     },
     {
-      "path": "app/img/wallpapers/bloom2.png",
+      "path": "app/img/wallpapers/bloom2.jpg",
       "where": "client",
       "type": "asset",
       "cacheable": false,
-      "url": "/img/wallpapers/bloom2.png",
+      "url": "/img/wallpapers/bloom2.jpg",
+      "size": 319244,
+      "hash": "d290885d93f05812672744ab631c88ca89a9b0e0",
+      "sri": null
+    },
+    {
+      "path": "app/img/wallpapers/bloom2.webp",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/wallpapers/bloom2.webp",
+      "size": 193992,
+      "hash": "88a70d004941ddbd6875725afd94092afedd7b02",
+      "sri": null
+    },
+    {
+      "path": "app/img/wallpapers/bloom2_original.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/wallpapers/bloom2_original.png",
       "size": 1616208,
       "hash": "2ba1df9cbafe2e2caffe174f7236c6d77d765801",
       "sri": null
