@@ -3,8 +3,8 @@
     "name": "standard-minifier-js",
     "version": "2.4.1"
   },
-  "totalMinifiedBytes": 874828,
-  "totalMinifiedGzipBytes": 250610,
+  "totalMinifiedBytes": 875095,
+  "totalMinifiedGzipBytes": 250664,
   "minifiedBytesByPackage": {
     "packages/meteor.js": 9484,
     "packages/meteor-base.js": 31,
@@ -665,7 +665,7 @@
       {}
     ],
     "app/app.js": [
-      139966,
+      140233,
       {
         "imports": {
           "ui": {
@@ -688,7 +688,7 @@
             "login.html": 57,
             "template.login.js": 2712,
             "manageUsers.html": 63,
-            "template.manageUsers.js": 3030,
+            "template.manageUsers.js": 3197,
             "meeting.html": 59,
             "template.meeting.js": 566,
             "register.html": 60,
@@ -696,7 +696,7 @@
             "restore.html": 59,
             "template.restore.js": 1282,
             "settings.html": 60,
-            "template.settings.js": 32366,
+            "template.settings.js": 32426,
             "settings_header.html": 67,
             "template.settings_header.js": 1554,
             "settings_sidebar.html": 68,
@@ -715,11 +715,11 @@
             "index.js": 2325,
             "indexHeader.js": 180,
             "login.js": 1247,
-            "manageUsers.js": 1309,
+            "manageUsers.js": 1320,
             "meeting.js": 630,
             "register.js": 1451,
             "restore.js": 167,
-            "settings.js": 14877,
+            "settings.js": 14906,
             "settings_header.js": 392,
             "settings_sidebar.js": 608,
             "store.js": 1325,
