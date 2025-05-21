@@ -502,6 +502,16 @@
       "sri": null
     },
     {
+      "path": "app/img/icons/youmjadeed.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/icons/youmjadeed.png",
+      "size": 169374,
+      "hash": "7bb94ffa730250867f5b447241331e5e870c7b0d",
+      "sri": null
+    },
+    {
       "path": "app/img/wallpapers/bloom1.png",
       "where": "client",
       "type": "asset",
