@@ -2,34 +2,34 @@
   "format": "web-program-pre1",
   "manifest": [
     {
-      "path": "a02c0acfbf17d36e766b9a29cc32423474cabc66.js",
+      "path": "f762267c522b6b3183783c239e34f36652dfa2de.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/a02c0acfbf17d36e766b9a29cc32423474cabc66.js?meteor_js_resource=true",
-      "size": 875102,
-      "hash": "a02c0acfbf17d36e766b9a29cc32423474cabc66",
-      "sri": "hmZgahJn1BZsJNjZxrchmaI0QuiiwNHVskWMNpVA0mW96cWXH8dK9rxxt0IIFUqJKpHvL9pS8ieETYr5TANKCA=="
+      "url": "/f762267c522b6b3183783c239e34f36652dfa2de.js?meteor_js_resource=true",
+      "size": 875095,
+      "hash": "f762267c522b6b3183783c239e34f36652dfa2de",
+      "sri": "eNj9dQmDPkzN6YjIA2zTLxhLFUwwCmvQadhlE0dIwVcG0UsmUWsQ547+q54wBR64lrsSmmLw9y7mBM5mmVBF4g=="
     },
     {
-      "path": "a02c0acfbf17d36e766b9a29cc32423474cabc66.stats.json",
+      "path": "f762267c522b6b3183783c239e34f36652dfa2de.stats.json",
       "where": "client",
       "type": "json",
       "cacheable": true,
-      "url": "/a02c0acfbf17d36e766b9a29cc32423474cabc66.stats.json?meteor_js_resource=true",
+      "url": "/f762267c522b6b3183783c239e34f36652dfa2de.stats.json?meteor_js_resource=true",
       "size": 18837,
-      "hash": "46e6a8ccfb2b5c733c6d022103aa606b1928d0da",
-      "sri": "0TqpRpvhnlOw8XohxmIAd4QRsDj4LISwhqpd/u7Q+o8AVHVdGELLqBn8EshcglpW+UvARZKPXXU6wMaBEvkfFA=="
+      "hash": "f6fa3d5bdc620b0c55db7e66fca58658d70fd3eb",
+      "sri": "IRXmBqUDruntb5JzsHknDsULKDp6DLlKmx3K29LeW+8QtxEOL7BwQCAN9hPJaDTESYdAaW0RK8UVveOk+0triA=="
     },
     {
-      "path": "76af383964a8d461fc6f96bd17dac4c4ccb4dd9d.css",
+      "path": "6e2561ae416285cb383378d6b35dae167240b3aa.css",
       "where": "client",
       "type": "css",
       "cacheable": true,
-      "url": "/76af383964a8d461fc6f96bd17dac4c4ccb4dd9d.css?meteor_css_resource=true",
-      "size": 152808,
-      "hash": "76af383964a8d461fc6f96bd17dac4c4ccb4dd9d",
-      "sri": "TCGk3XZ3c4mfwJrGM9jbuK0FkaP3Y5RDRSM9OBHFuALoNmBYSs2uTn/aqcOHMnpG/6IQsjFeG3ymNq7bv3fvdQ=="
+      "url": "/6e2561ae416285cb383378d6b35dae167240b3aa.css?meteor_css_resource=true",
+      "size": 152820,
+      "hash": "6e2561ae416285cb383378d6b35dae167240b3aa",
+      "sri": "0nsCuq4+Z+43F+nnr62mkRXvHNhwGnUNd3zfs6xEPXj1p68XWPBcgnOlQaKB0K850FlqAMN6/dg3xGDvunS93A=="
     },
     {
       "path": "app/doc/beekeebox_quick_start_guide.pdf",
@@ -312,36 +312,6 @@
       "sri": null
     },
     {
-      "path": "app/img/custom/logo.png",
-      "where": "client",
-      "type": "asset",
-      "cacheable": false,
-      "url": "/img/custom/logo.png",
-      "size": 84077,
-      "hash": "770e4f84db056d334a20e3f1c13e1f50867262ad",
-      "sri": null
-    },
-    {
-      "path": "app/img/custom/wallpaper.jpg",
-      "where": "client",
-      "type": "asset",
-      "cacheable": false,
-      "url": "/img/custom/wallpaper.jpg",
-      "size": 319244,
-      "hash": "d290885d93f05812672744ab631c88ca89a9b0e0",
-      "sri": null
-    },
-    {
-      "path": "app/img/custom/wallpaper.webp",
-      "where": "client",
-      "type": "asset",
-      "cacheable": false,
-      "url": "/img/custom/wallpaper.webp",
-      "size": 193992,
-      "hash": "88a70d004941ddbd6875725afd94092afedd7b02",
-      "sri": null
-    },
-    {
       "path": "app/img/doc/quick_start_guide_beekee_box.png",
       "where": "client",
       "type": "asset",
@@ -619,6 +589,26 @@
       "url": "/img/wallpapers/sonoma-1.jpg",
       "size": 2170681,
       "hash": "0a951e8890390f7336ef11b062505b8c0e4252cd",
+      "sri": null
+    },
+    {
+      "path": "app/img/wallpapers/wallpaper.jpg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/wallpapers/wallpaper.jpg",
+      "size": 319244,
+      "hash": "d290885d93f05812672744ab631c88ca89a9b0e0",
+      "sri": null
+    },
+    {
+      "path": "app/img/wallpapers/wallpaper.webp",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/wallpapers/wallpaper.webp",
+      "size": 193992,
+      "hash": "88a70d004941ddbd6875725afd94092afedd7b02",
       "sri": null
     },
     {
