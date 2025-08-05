@@ -2,34 +2,34 @@
   "format": "web-program-pre1",
   "manifest": [
     {
-      "path": "f762267c522b6b3183783c239e34f36652dfa2de.js",
+      "path": "a02c0acfbf17d36e766b9a29cc32423474cabc66.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/f762267c522b6b3183783c239e34f36652dfa2de.js?meteor_js_resource=true",
-      "size": 875095,
-      "hash": "f762267c522b6b3183783c239e34f36652dfa2de",
-      "sri": "eNj9dQmDPkzN6YjIA2zTLxhLFUwwCmvQadhlE0dIwVcG0UsmUWsQ547+q54wBR64lrsSmmLw9y7mBM5mmVBF4g=="
+      "url": "/a02c0acfbf17d36e766b9a29cc32423474cabc66.js?meteor_js_resource=true",
+      "size": 875102,
+      "hash": "a02c0acfbf17d36e766b9a29cc32423474cabc66",
+      "sri": "hmZgahJn1BZsJNjZxrchmaI0QuiiwNHVskWMNpVA0mW96cWXH8dK9rxxt0IIFUqJKpHvL9pS8ieETYr5TANKCA=="
     },
     {
-      "path": "f762267c522b6b3183783c239e34f36652dfa2de.stats.json",
+      "path": "a02c0acfbf17d36e766b9a29cc32423474cabc66.stats.json",
       "where": "client",
       "type": "json",
       "cacheable": true,
-      "url": "/f762267c522b6b3183783c239e34f36652dfa2de.stats.json?meteor_js_resource=true",
+      "url": "/a02c0acfbf17d36e766b9a29cc32423474cabc66.stats.json?meteor_js_resource=true",
       "size": 18837,
-      "hash": "f6fa3d5bdc620b0c55db7e66fca58658d70fd3eb",
-      "sri": "IRXmBqUDruntb5JzsHknDsULKDp6DLlKmx3K29LeW+8QtxEOL7BwQCAN9hPJaDTESYdAaW0RK8UVveOk+0triA=="
+      "hash": "46e6a8ccfb2b5c733c6d022103aa606b1928d0da",
+      "sri": "0TqpRpvhnlOw8XohxmIAd4QRsDj4LISwhqpd/u7Q+o8AVHVdGELLqBn8EshcglpW+UvARZKPXXU6wMaBEvkfFA=="
     },
     {
-      "path": "7f786260399bdd285eaf489a827d16b7f8cba6d8.css",
+      "path": "76af383964a8d461fc6f96bd17dac4c4ccb4dd9d.css",
       "where": "client",
       "type": "css",
       "cacheable": true,
-      "url": "/7f786260399bdd285eaf489a827d16b7f8cba6d8.css?meteor_css_resource=true",
-      "size": 152811,
-      "hash": "7f786260399bdd285eaf489a827d16b7f8cba6d8",
-      "sri": "6/iLDCOPoBBkMgGf9Q2oqdyB2qAgIQGg0svnknRi7SY/wifwoH5hVxtavHxvlsUmn06zNyp0cKYOy2xrfCdd3w=="
+      "url": "/76af383964a8d461fc6f96bd17dac4c4ccb4dd9d.css?meteor_css_resource=true",
+      "size": 152808,
+      "hash": "76af383964a8d461fc6f96bd17dac4c4ccb4dd9d",
+      "sri": "TCGk3XZ3c4mfwJrGM9jbuK0FkaP3Y5RDRSM9OBHFuALoNmBYSs2uTn/aqcOHMnpG/6IQsjFeG3ymNq7bv3fvdQ=="
     },
     {
       "path": "app/doc/beekeebox_quick_start_guide.pdf",
@@ -309,6 +309,36 @@
       "url": "/fonts/font-awesome/LICENSE.txt",
       "size": 1548,
       "hash": "08a30fd2258b76bc81249420703fc5ed71241c7e",
+      "sri": null
+    },
+    {
+      "path": "app/img/custom/logo.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/custom/logo.png",
+      "size": 84077,
+      "hash": "770e4f84db056d334a20e3f1c13e1f50867262ad",
+      "sri": null
+    },
+    {
+      "path": "app/img/custom/wallpaper.jpg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/custom/wallpaper.jpg",
+      "size": 319244,
+      "hash": "d290885d93f05812672744ab631c88ca89a9b0e0",
+      "sri": null
+    },
+    {
+      "path": "app/img/custom/wallpaper.webp",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/custom/wallpaper.webp",
+      "size": 193992,
+      "hash": "88a70d004941ddbd6875725afd94092afedd7b02",
       "sri": null
     },
     {
