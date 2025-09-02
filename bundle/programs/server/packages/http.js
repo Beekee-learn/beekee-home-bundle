@@ -5,12 +5,13 @@ var Meteor = Package.meteor.Meteor;
 var global = Package.meteor.global;
 var meteorEnv = Package.meteor.meteorEnv;
 var URL = Package.url.URL;
+var URLSearchParams = Package.url.URLSearchParams;
 var meteorInstall = Package.modules.meteorInstall;
 
 /* Package-scope variables */
 var HTTP, HTTPInternals;
 
-var require = meteorInstall({"node_modules":{"meteor":{"http":{"httpcall_server.js":function(require,exports,module){
+var require = meteorInstall({"node_modules":{"meteor":{"http":{"httpcall_server.js":function module(require,exports,module){
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                                                  //
@@ -152,7 +153,7 @@ HTTP.call = Meteor.wrapAsync(_call);
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-},"httpcall_common.js":function(require,exports){
+},"httpcall_common.js":function module(require,exports){
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                                                  //
@@ -262,7 +263,7 @@ HTTP.patch = function (/* varargs */) {
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-},"node_modules":{"request":{"package.json":function(require,exports,module){
+},"node_modules":{"request":{"package.json":function module(require,exports,module){
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                                                  //
@@ -278,7 +279,7 @@ module.exports = {
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-},"index.js":function(require,exports,module){
+},"index.js":function module(require,exports,module){
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                                                  //

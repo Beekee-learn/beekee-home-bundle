@@ -1,6 +1,6 @@
 {
   "format": "site-archive-pre1",
-  "builtBy": "Meteor METEOR@1.8.1",
+  "builtBy": "Meteor METEOR@2.16",
   "programs": [
     {
       "name": "web.browser",
@@ -18,8 +18,8 @@
       "path": "programs/server/boot.js"
     }
   ],
-  "meteorRelease": "METEOR@1.8.1",
-  "nodeVersion": "8.15.1",
-  "npmVersion": "6.9.0",
-  "gitCommitHash": "e26f3b5eab5ac131f8b263a99ed177c5d5099ec9"
+  "meteorRelease": "METEOR@2.16",
+  "nodeVersion": "14.21.4",
+  "npmVersion": "6.14.18",
+  "gitCommitHash": "24825ea51980dd60300f79715b8e238fd20a875f"
 }

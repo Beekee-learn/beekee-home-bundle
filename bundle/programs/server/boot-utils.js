@@ -3,5 +3,6 @@
 // Check that we have a pid that looks like an integer (non-decimal
 // integer is okay).
 exports.validPid = function (pid) {
-  return ! isNaN(+pid);
+  return !isNaN(+pid);
 };
+//# sourceMappingURL=boot-utils.js.map
