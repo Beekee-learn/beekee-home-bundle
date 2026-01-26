@@ -9,7 +9,7 @@ var meteorInstall = Package.modules.meteorInstall;
 /* Package-scope variables */
 var Promise;
 
-var require = meteorInstall({"node_modules":{"meteor":{"promise":{"modern.js":function(){
+var require = meteorInstall({"node_modules":{"meteor":{"promise":{"modern.js":function module(){
 
 ///////////////////////////////////////////////////////////////////////////////////
 //                                                                               //
@@ -23,7 +23,7 @@ Promise = global.Promise;
 
 ///////////////////////////////////////////////////////////////////////////////////
 
-},"server.js":function(require,exports,module){
+},"server.js":function module(require,exports,module){
 
 ///////////////////////////////////////////////////////////////////////////////////
 //                                                                               //
@@ -33,18 +33,20 @@ Promise = global.Promise;
                                                                                  //
 require("./extensions.js");
 
-require("meteor-promise").makeCompatible(
-  Promise,
-  // Allow every Promise callback to run in a Fiber drawn from a pool of
-  // reusable Fibers.
-  require("fibers")
-);
+if (!process.env.DISABLE_FIBERS) {
+  require("meteor-promise").makeCompatible(
+      Promise,
+      // Allow every Promise callback to run in a Fiber drawn from a pool of
+      // reusable Fibers.
+      require("fibers")
+  );
+}
 
 // Reference: https://caniuse.com/#feat=promises
 require("meteor/modern-browsers").setMinimumBrowserVersions({
   chrome: 32,
   edge: 12,
-  // Since there is no IE11, this effectively excludes Internet Explorer
+  // Since there is no IE12, this effectively excludes Internet Explorer
   // (pre-Edge) from the modern classification. #9818 #9839
   ie: 12,
   firefox: 29,
@@ -57,7 +59,7 @@ require("meteor/modern-browsers").setMinimumBrowserVersions({
 
 ///////////////////////////////////////////////////////////////////////////////////
 
-},"extensions.js":function(){
+},"extensions.js":function module(){
 
 ///////////////////////////////////////////////////////////////////////////////////
 //                                                                               //
@@ -109,7 +111,7 @@ if (! hasOwn.call(proto, "finally")) {
 
 ///////////////////////////////////////////////////////////////////////////////////
 
-},"node_modules":{"meteor-promise":{"package.json":function(require,exports,module){
+},"node_modules":{"meteor-promise":{"package.json":function module(require,exports,module){
 
 ///////////////////////////////////////////////////////////////////////////////////
 //                                                                               //
@@ -119,13 +121,13 @@ if (! hasOwn.call(proto, "finally")) {
                                                                                  //
 module.exports = {
   "name": "meteor-promise",
-  "version": "0.8.7",
+  "version": "0.9.0",
   "main": "promise_server.js"
 };
 
 ///////////////////////////////////////////////////////////////////////////////////
 
-},"promise_server.js":function(require,exports,module){
+},"promise_server.js":function module(require,exports,module){
 
 ///////////////////////////////////////////////////////////////////////////////////
 //                                                                               //

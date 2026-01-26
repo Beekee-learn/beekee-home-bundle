@@ -10,7 +10,7 @@ var Promise = Package.promise.Promise;
 /* Package-scope variables */
 var fetch;
 
-var require = meteorInstall({"node_modules":{"meteor":{"fetch":{"server.js":function(require,exports,module){
+var require = meteorInstall({"node_modules":{"meteor":{"fetch":{"server.js":function module(require,exports,module){
 
 ///////////////////////////////////////////////////////////////////////////////////
 //                                                                               //
@@ -20,7 +20,7 @@ var require = meteorInstall({"node_modules":{"meteor":{"fetch":{"server.js":func
                                                                                  //
 const fetch = require("node-fetch");
 
-exports.fetch = fetch;
+exports.fetch = fetch.default;
 exports.Headers = fetch.Headers;
 exports.Request = fetch.Request;
 exports.Response = fetch.Response;
@@ -42,7 +42,7 @@ setMinimumBrowserVersions({
 
 ///////////////////////////////////////////////////////////////////////////////////
 
-},"node_modules":{"node-fetch":{"package.json":function(require,exports,module){
+},"node_modules":{"node-fetch":{"package.json":function module(require,exports,module){
 
 ///////////////////////////////////////////////////////////////////////////////////
 //                                                                               //
@@ -52,13 +52,13 @@ setMinimumBrowserVersions({
                                                                                  //
 module.exports = {
   "name": "node-fetch",
-  "version": "2.3.0",
-  "main": "lib/index"
+  "version": "2.6.12",
+  "main": "lib/index.js"
 };
 
 ///////////////////////////////////////////////////////////////////////////////////
 
-},"lib":{"index.js":function(require,exports,module){
+},"lib":{"index.js":function module(require,exports,module){
 
 ///////////////////////////////////////////////////////////////////////////////////
 //                                                                               //

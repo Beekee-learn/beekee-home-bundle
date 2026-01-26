@@ -1,0 +1,19 @@
+[Unit]
+Description=Beekee System REST API
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/home/pi/beekee-system-api
+Environment="PATH=/home/pi/beekee-system-api/venv/bin"
+EnvironmentFile=/home/pi/beekee-system-api/.env
+ExecStart=/home/pi/beekee-system-api/venv/bin/python3 /home/pi/beekee-system-api/app.py
+Restart=always
+RestartSec=10
+StandardOutput=append:/var/log/beekee-system-api.log
+StandardError=append:/var/log/beekee-system-api-error.log
+
+[Install]
+WantedBy=multi-user.target
