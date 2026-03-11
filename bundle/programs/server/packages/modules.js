@@ -245,7 +245,34 @@ module.useNode();
     ".json"
   ]
 });
-meteorInstall({"node_modules":{"@babel":{"runtime":{"package.json":function(require,exports,module){
+meteorInstall({"node_modules":{"node-wifi":{"package.json":function(require,exports,module){
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                               //
+// node_modules/node-wifi/package.json                                                           //
+//                                                                                               //
+///////////////////////////////////////////////////////////////////////////////////////////////////
+                                                                                                 //
+module.exports = {
+  "name": "node-wifi",
+  "version": "2.0.16",
+  "main": "src/wifi.js"
+};
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+},"src":{"wifi.js":function(require,exports,module){
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                               //
+// node_modules/node-wifi/src/wifi.js                                                            //
+//                                                                                               //
+///////////////////////////////////////////////////////////////////////////////////////////////////
+                                                                                                 //
+module.useNode();
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+}}},"@babel":{"runtime":{"package.json":function(require,exports,module){
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                               //
@@ -288,7 +315,7 @@ module.useNode();
                                                                                                  //
 module.exports = {
   "name": "bcrypt",
-  "version": "3.0.8",
+  "version": "3.0.7",
   "main": "./bcrypt"
 };
 
