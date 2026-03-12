@@ -378,16 +378,7 @@
       "path": "packages/autoupdate.js"
     },
     {
-      "node_modules": {
-        "npm/build-output-USB/bundle/programs/server/npm/node_modules": {
-          "packageName": null,
-          "local": true
-        },
-        "npm/node_modules": {
-          "packageName": null,
-          "local": true
-        }
-      },
+      "node_modules": "npm/node_modules",
       "path": "app/global-imports.js",
       "assets": {
         "app_loader.html": "assets/app/app_loader.html",
@@ -395,16 +386,7 @@
       }
     },
     {
-      "node_modules": {
-        "npm/build-output-USB/bundle/programs/server/npm/node_modules": {
-          "packageName": null,
-          "local": true
-        },
-        "npm/node_modules": {
-          "packageName": null,
-          "local": true
-        }
-      },
+      "node_modules": "npm/node_modules",
       "sourceMap": "app/app.js.map",
       "path": "app/app.js",
       "assets": {
