@@ -713,18 +713,18 @@ Meteor.startup(function () {
       },
       'getOperatorName': function () {
         var operatorName;
-        operatorName = cmd("sudo qmicli --device=/dev/cdc-wdm0 --nas-get-operator-name | grep -m2 'Name             ' | awk '{print $3}'");
+        operatorName = cmd("sudo qmicli -p --device=/dev/cdc-wdm0 --nas-get-operator-name | grep -m2 'Name             ' | awk '{print $3}'");
         return operatorName;
       },
       // 'getSignalStrength': function () {
       // 	var signalStrength;
-      // 	signalStrength = cmd("sudo qmicli --device=/dev/cdc-wdm0 --nas-get-signal-strength | grep -m1 Network | awk '{print $3, $2}'");
+      // 	signalStrength = cmd("sudo qmicli -p --device=/dev/cdc-wdm0 --nas-get-signal-strength | grep -m1 Network | awk '{print $3, $2}'");
       // 	return signalStrength;
       // },
       'getSignalStrength': function () {
         var signalStrength; // This extracts just the numeric part of the signal strength.
 
-        signalStrength = cmd("sudo qmicli --device=/dev/cdc-wdm0 --nas-get-signal-strength | grep 'Network' | awk '{print $3}' | grep -oE '[-0-9]+'"); // Convert signal strength to a qualitative value
+        signalStrength = cmd("sudo qmicli -p --device=/dev/cdc-wdm0 --nas-get-signal-strength | grep 'Network' | awk '{print $3}' | grep -oE '[-0-9]+'"); // Convert signal strength to a qualitative value
 
         var strengthValue = parseInt(signalStrength);
         var quality = 'Unknown';
@@ -743,12 +743,12 @@ Meteor.startup(function () {
       },
       // 'getIsOnline': function () {
       // 	var isOnline;
-      // 	isOnline = cmd("sudo qmicli --device=/dev/cdc-wdm0 --nas-get-signal-strength | grep -m1 Network | awk '{print $3, $2}'");
+      // 	isOnline = cmd("sudo qmicli -p --device=/dev/cdc-wdm0 --nas-get-signal-strength | grep -m1 Network | awk '{print $3, $2}'");
       // 	return isOnline;
       // },
       // 'getBand': function () {
       // 	var band;
-      //			band = cmd("sudo qmicli --device=/dev/cdc-wdm0 --nas-get-signal-strength | grep -m1 Network | awk \"{print $2}\" | cut -d\\' -f2");
+      //			band = cmd("sudo qmicli -p --device=/dev/cdc-wdm0 --nas-get-signal-strength | grep -m1 Network | awk \"{print $2}\" | cut -d\\' -f2");
       // 	return band;
       // },
       'getAPN': function () {
@@ -792,7 +792,7 @@ Meteor.startup(function () {
         } // Execute SIM card status check command
 
 
-        let simStatus = executeCommand("sudo qmicli --device=/dev/cdc-wdm0 --uim-get-card-status | grep 'Card state:'");
+        let simStatus = executeCommand("sudo qmicli -p --device=/dev/cdc-wdm0 --uim-get-card-status | grep 'Card state:'");
         console.log("SIM card status:", simStatus); // Log the raw output
         // Process the output and determine SIM card status
 
