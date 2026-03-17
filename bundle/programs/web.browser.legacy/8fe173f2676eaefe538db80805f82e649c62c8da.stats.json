@@ -3,8 +3,8 @@
     "name": "standard-minifier-js",
     "version": "2.4.1"
   },
-  "totalMinifiedBytes": 1043145,
-  "totalMinifiedGzipBytes": 291639,
+  "totalMinifiedBytes": 1046534,
+  "totalMinifiedGzipBytes": 291843,
   "minifiedBytesByPackage": {
     "packages/meteor.js": 9484,
     "packages/meteor-base.js": 31,
@@ -901,7 +901,7 @@
       {}
     ],
     "app/app.js": [
-      174200,
+      177589,
       {
         "imports": {
           "ui": {
@@ -932,7 +932,7 @@
             "restore.html": 59,
             "template.restore.js": 1282,
             "settings.html": 60,
-            "template.settings.js": 38983,
+            "template.settings.js": 40457,
             "settings_header.html": 67,
             "template.settings_header.js": 1554,
             "settings_sidebar.html": 68,
@@ -944,7 +944,7 @@
             "userSettings.html": 64,
             "template.userSettings.js": 3014,
             "wifi_selection.html": 66,
-            "template.wifi_selection.js": 12144,
+            "template.wifi_selection.js": 13762,
             "admin_create_account.js": 1649,
             "admin_edit_account.js": 1787,
             "backHeader.js": 212,
@@ -957,13 +957,13 @@
             "meeting.js": 635,
             "register.js": 1460,
             "restore.js": 176,
-            "settings.js": 19336,
+            "settings.js": 19175,
             "settings_header.js": 401,
             "settings_sidebar.js": 617,
             "store.js": 1343,
             "sync_modal.js": 744,
             "userSettings.js": 1510,
-            "wifi_selection.js": 9855
+            "wifi_selection.js": 10313
           },
           "api": {
             "apps.js": 342,
