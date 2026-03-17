@@ -3,8 +3,8 @@
     "name": "standard-minifier-js",
     "version": "2.4.1"
   },
-  "totalMinifiedBytes": 1046852,
-  "totalMinifiedGzipBytes": 291921,
+  "totalMinifiedBytes": 1047130,
+  "totalMinifiedGzipBytes": 291965,
   "minifiedBytesByPackage": {
     "packages/meteor.js": 9484,
     "packages/meteor-base.js": 31,
@@ -901,7 +901,7 @@
       {}
     ],
     "app/app.js": [
-      177907,
+      178185,
       {
         "imports": {
           "ui": {
@@ -932,7 +932,7 @@
             "restore.html": 59,
             "template.restore.js": 1282,
             "settings.html": 60,
-            "template.settings.js": 40775,
+            "template.settings.js": 40984,
             "settings_header.html": 67,
             "template.settings_header.js": 1554,
             "settings_sidebar.html": 68,
@@ -957,7 +957,7 @@
             "meeting.js": 635,
             "register.js": 1460,
             "restore.js": 176,
-            "settings.js": 19175,
+            "settings.js": 19244,
             "settings_header.js": 401,
             "settings_sidebar.js": 617,
             "store.js": 1343,
