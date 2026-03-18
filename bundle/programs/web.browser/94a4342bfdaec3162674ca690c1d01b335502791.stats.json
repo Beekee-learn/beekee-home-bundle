@@ -3,8 +3,8 @@
     "name": "standard-minifier-js",
     "version": "2.4.1"
   },
-  "totalMinifiedBytes": 909603,
-  "totalMinifiedGzipBytes": 255632,
+  "totalMinifiedBytes": 912092,
+  "totalMinifiedGzipBytes": 256074,
   "minifiedBytesByPackage": {
     "packages/meteor.js": 9484,
     "packages/meteor-base.js": 31,
@@ -665,7 +665,7 @@
       {}
     ],
     "app/app.js": [
-      174777,
+      177266,
       {
         "imports": {
           "ui": {
@@ -708,7 +708,7 @@
             "userSettings.html": 64,
             "template.userSettings.js": 3014,
             "wifi_selection.html": 66,
-            "template.wifi_selection.js": 13783,
+            "template.wifi_selection.js": 15292,
             "admin_create_account.js": 1640,
             "admin_edit_account.js": 1778,
             "backHeader.js": 203,
@@ -727,7 +727,7 @@
             "store.js": 1325,
             "sync_modal.js": 726,
             "userSettings.js": 1501,
-            "wifi_selection.js": 6065
+            "wifi_selection.js": 7045
           },
           "api": {
             "apps.js": 298,
