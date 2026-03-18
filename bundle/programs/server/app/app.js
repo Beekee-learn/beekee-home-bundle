@@ -612,11 +612,13 @@ Meteor.startup(function () {
       }
 
       try {
-        const response = cmd('curl --interface wlanusb -s -m 8 -D - -o /dev/null http://connectivitycheck.gstatic.com/generate_204 || true').toString();
+        const response = cmd('curl --interface wlanusb -s -m 8 -L -D - -o /dev/null -w "\\nCURL_EFFECTIVE_URL:%{url_effective}\\n" http://connectivitycheck.gstatic.com/generate_204 || true').toString();
         const statusMatch = response.match(/HTTP\/[0-9.]+\s+(\d{3})/);
         const locationMatch = response.match(/^[Ll]ocation:\s*(.+)$/m);
+        const effectiveUrlMatch = response.match(/CURL_EFFECTIVE_URL:(.+)$/m);
         const statusCode = statusMatch ? parseInt(statusMatch[1], 10) : null;
         let url = locationMatch ? locationMatch[1].trim() : null;
+        const effectiveUrl = effectiveUrlMatch ? effectiveUrlMatch[1].trim() : null;
 
         if (url && /^\/\//.test(url)) {
           url = `http:${url}`;
@@ -626,10 +628,19 @@ Meteor.startup(function () {
           url = 'http://neverssl.com';
         }
 
-        if (url) {
+        if (url && !/neverssl\.com/i.test(url) && !/connectivitycheck\.gstatic\.com/i.test(url)) {
           return {
             detected: true,
             url: url,
+            ssid: ssid,
+            statusCode: statusCode
+          };
+        }
+
+        if (effectiveUrl && !/^http:\/\/connectivitycheck\.gstatic\.com\/generate_204\/?$/i.test(effectiveUrl) && !/^http:\/\/([^/]+\.)?neverssl\.com(\/|$)/i.test(effectiveUrl)) {
+          return {
+            detected: true,
+            url: effectiveUrl,
             ssid: ssid,
             statusCode: statusCode
           };
@@ -644,14 +655,6 @@ Meteor.startup(function () {
           };
         }
 
-        if (statusCode === 200) {
-          return {
-            detected: true,
-            url: 'http://neverssl.com',
-            ssid: ssid,
-            statusCode: statusCode
-          };
-        }
       } catch (error) {
         console.log('Error detecting captive portal:', error);
       }
